@@ -21,3 +21,14 @@ a[x-apple-data-detectors] {
 ```
 
 *Courtesy of [removebluelinks.com](http://removebluelinks.com)*
+
+##Gmail App Zooming
+
+Stop Gmail app from zooming text
+
+
+    style="min-width:600px"
+
+*Courtesy of [Chriss Wise](http://chriswi.se/)*
+
+
