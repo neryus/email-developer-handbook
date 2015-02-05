@@ -1,4 +1,4 @@
-HTML Email Hacks
+Hacks
 ================
 
 Collections of HTML email hacks that works and been tested
