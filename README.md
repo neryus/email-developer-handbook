@@ -31,4 +31,8 @@ Stop Gmail app from zooming text
 
 *Courtesy of [Chriss Wise](http://chriswi.se/)*
 
+##Windows Phone address blue colour
+
+Any ideas?
+
 
