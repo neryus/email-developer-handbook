@@ -31,6 +31,10 @@ Stop Gmail app from zooming text
 
 *Courtesy of [Chriss Wise](http://chriswi.se/)*
 
+##Gmail white line under image
+
+To stop appear white line below image add `display:block` to image styles
+
 ##Windows Phone address blue colour
 
 Any ideas?
