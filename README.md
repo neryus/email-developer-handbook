@@ -26,10 +26,19 @@ a[x-apple-data-detectors] {
 
 Stop Gmail app from zooming text
 
-
+```
     style="min-width:600px"
+```
 
 *Courtesy of [Chriss Wise](http://chriswi.se/)*
+
+##Gmail App p margin
+
+Stop Gmail App from adding margin-top and margin-bottom
+
+```
+    margin:0px;
+```
 
 ##Gmail white line under image
 
