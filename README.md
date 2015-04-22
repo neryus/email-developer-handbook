@@ -3,6 +3,16 @@ Hacks
 
 Collections of HTML email hacks that works and been tested
 
+## Outlook.com p margin
+
+Outlook.com adding *margin-bottom:1.35em* to every paragraph tag. So we adding this style rule to our styles box:
+
+```css
+.ExternalClass p {Margin-bottom:0 !important;}
+```
+Note
+Margin should be capitalize, otherwise it will not work.
+
 ##Remove blue links in iOS
 
 Fix automatic styling of auto-generated blue-lnks on Apple devices such as iPhone
