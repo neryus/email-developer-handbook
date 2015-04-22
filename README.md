@@ -5,7 +5,7 @@ Collections of HTML email hacks that works and been tested
 
 ## Outlook.com p margin
 
-Outlook.com adding *margin-bottom:1.35em* to every paragraph tag. So we adding this style rule to our styles box:
+Outlook.com adding *margin-bottom:1.35em* to every paragraph tag. So we will force Outlook to change this by adding this rule to our style block:
 
 ```css
 .ExternalClass p {Margin-bottom:0 !important;}
