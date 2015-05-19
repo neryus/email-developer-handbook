@@ -5,7 +5,9 @@ Collections of HTML email knowledge bank and hacks that works and been tested on
 
 ## Outlook desktop
 
-All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value. No point ti use them, better use nested table to create some space between elements.
+All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value. No point to use them, better use nested table to create some space between elements.
+
+After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
 
 ## Outlook.com p margin
 
