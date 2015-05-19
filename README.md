@@ -9,6 +9,7 @@ All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing 
 
 After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
 
+
 ## Outlook.com p margin
 
 Outlook.com adding *margin-bottom:1.35em* to every paragraph tag. So we will force Outlook to change this by adding this rule to our style block:
