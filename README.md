@@ -2,6 +2,9 @@ Hacks
 ================
 
 Collections of HTML email hacks that works and been tested
+## Outlook desktop
+
+All Outlook desktop versions ignoring cellspacing value.
 
 ## Outlook.com p margin
 
