@@ -1,7 +1,8 @@
 Knowledge bank and hacks
 ================
 
-Collections of HTML email hacks that works and been tested
+Collections of HTML email knowledge bank and hacks that works and been tested on Litmus and my own devices.
+
 ## Outlook desktop
 
 All Outlook desktop versions ignoring cellspacing value. No point ti use them, better use nested table to create some space between elements.
