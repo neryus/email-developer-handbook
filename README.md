@@ -1,4 +1,4 @@
-Hacks
+Knowledge bank and hacks
 ================
 
 Collections of HTML email hacks that works and been tested
