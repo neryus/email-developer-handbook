@@ -4,7 +4,7 @@ Hacks
 Collections of HTML email hacks that works and been tested
 ## Outlook desktop
 
-All Outlook desktop versions ignoring cellspacing value.
+All Outlook desktop versions ignoring cellspacing value. No point ti use them, better use nested table to create some space between elements.
 
 ## Outlook.com p margin
 
