@@ -5,7 +5,7 @@ Collections of HTML email knowledge bank and hacks that works and been tested on
 
 ## Outlook desktop
 
-All Outlook desktop versions ignoring cellspacing value. No point ti use them, better use nested table to create some space between elements.
+All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value. No point ti use them, better use nested table to create some space between elements.
 
 ## Outlook.com p margin
 
