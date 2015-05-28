@@ -5,9 +5,14 @@ Collections of HTML email knowledge bank and hacks that works and been tested on
 
 ## Outlook desktop
 
-All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value. No point to use them, better use nested table to create some space between elements.
+#### cellspacing
+All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value on table tag. No point to use them, better use nested table to create some space between elements.
 
 After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
+
+#### clipping email
+As everyone knows Outlook sometimes clip email because it's too big. I had this issue when was coding long email template and Outlook was clipping it at different point, depend from amount of content. My content was wrapped in main `<table width="100%">`, I divided that table in two main tables and it's working nice. I presume Outlook was thinking that another table is new page and that's why it was working.
+Tested on Windows7 - Outlook2010
 
 
 ## Outlook.com p margin
