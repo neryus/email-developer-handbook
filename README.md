@@ -44,6 +44,12 @@ a[x-apple-data-detectors] {
 
 *Courtesy of [removebluelinks.com](http://removebluelinks.com)*
 
+##Gmail
+
+`TABLE` background colour
+
+Gmail is showing table background colour only on space that have content and it depends how much content there are. To force gmail rendering engine to show background colour on whole table add `bgcolor=""` to parent `TD`.
+
 ##Gmail App Zooming
 
 Stop Gmail app from zooming text
