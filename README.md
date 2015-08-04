@@ -5,6 +5,22 @@ Collections of HTML email knowledge bank and hacks that works and been tested on
 
 ## Outlook desktop
 
+#### Outlook 2013 additional bullet point
+
+Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. This appear only if list is last editable element in table cell.
+
+```html
+<ul>
+    <li>Phasellus viverra nulla ut metus varius laoreet.<br /><br /></li>
+    <li>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</li>
+    <li>Phasellus viverra nulla ut metus varius laoreet.</li>
+    <li>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</li>
+</ul>
+<span style="display:none;">&nbsp;</span>
+```
+
+*Courtesy of [Peter Scher](https://www.campaignmonitor.com/forums/post/30101/#p30101)*
+
 #### cellspacing
 All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value on table tag. No point to use them, better use nested table to create some space between elements.
 
@@ -52,7 +68,7 @@ Gmail is showing table background colour only on space that have content and it 
 
 ##Gmail App Zooming
 
-Stop Gmail app from zooming text
+Stop Gmail app from zooming text.
 
 ```
     style="min-width:600px"
@@ -62,7 +78,7 @@ Stop Gmail app from zooming text
 
 ##Gmail App p margin
 
-Stop Gmail App from adding margin-top and margin-bottom
+Stop Gmail App from adding margin-top and margin-bottom.
 
 ```
     margin:0px;
@@ -70,7 +86,7 @@ Stop Gmail App from adding margin-top and margin-bottom
 
 ##Gmail white line under image
 
-To stop appear white line below image add `display:block` to image styles
+To stop appear white line below image add `display:block` to image styles.
 
 ##Windows Phone address blue colour
 
