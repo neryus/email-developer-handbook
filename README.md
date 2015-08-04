@@ -7,7 +7,7 @@ Collections of HTML email knowledge bank and hacks that works and been tested on
 
 #### Outlook 2013 additional bullet point
 
-Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. This appear only if list is last editable element in table cell.
+Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. Basically, the bullet points can't be the last piece in the table.
 
 ```html
 <ul>
