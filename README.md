@@ -1,7 +1,4 @@
-Knowledge bank and hacks
-================
-
-Collections of HTML email knowledge bank and hacks that works and been tested on Litmus and my own devices.
+Collections of responsive HTML email tricks and hacks that works and been tested on Litmus and my own devices.
 
 ## Outlook desktop
 
