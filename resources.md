@@ -1,5 +1,8 @@
 #Resources
 
+###[Mailchimp Email Design Reference] (http://templates.mailchimp.com/)
+In this section, we'll go over some HTML email basics and introduce you to some MailChimp-specific information to help you get started.
+
 ##Images
 
 ###[Pixlr] (https://pixlr.com/)
