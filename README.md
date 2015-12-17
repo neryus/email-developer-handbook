@@ -2,6 +2,12 @@ Collections of responsive HTML email tricks and hacks that works and been tested
 
 ## Outlook desktop
 
+### DPI Scaling in Outlook 2007-2013
+
+[Litmus thread] (https://litmus.com/community/discussions/151-mystery-solved-dpi-scaling-in-outlook-2007-2013)
+
+[Campaign Monitor thread] (https://www.campaignmonitor.com/forums/post/30195/#p30195)
+
 #### Outlook 2013 additional bullet point
 
 Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. Basically, the bullet points can't be the last piece in the table.
