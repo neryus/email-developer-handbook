@@ -3,6 +3,9 @@
 ###[Mailchimp Email Design Reference] (http://templates.mailchimp.com/)
 In this section, we'll go over some HTML email basics and introduce you to some MailChimp-specific information to help you get started.
 
+###[Campaign Monitor](https://www.campaignmonitor.com/dev-resources/) email developer resources and guides
+Tools for coding HTML emails and guide to template language
+
 ##Images
 
 ###[Pixlr] (https://pixlr.com/)
