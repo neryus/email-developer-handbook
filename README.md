@@ -91,8 +91,11 @@ Stop Gmail App from adding margin-top and margin-bottom.
 
 To stop appear white line below image add `display:block` to image styles.
 
+##Email size does matter atleast on Gmail
+If your email exceeds 102KB, Gmail will display the first 102KB and then it will clip off the remainder with a few different variations depending on the device. Image sizes are not counted, but all comments are. Full article on [Email on Acid](https://www.emailonacid.com/blog/article/email-development/when_it_comes_to_html_email_size_does_matter/)
+
+
 ##Windows Phone address blue colour
 
 Any ideas?
-
 
