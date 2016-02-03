@@ -94,6 +94,10 @@ To stop appear white line below image add `display:block` to image styles.
 ##Email size does matter atleast on Gmail
 If your email exceeds 102KB, Gmail will display the first 102KB and then it will clip off the remainder with a few different variations depending on the device. Image sizes are not counted, but all comments are. Full article on [Email on Acid](https://www.emailonacid.com/blog/article/email-development/when_it_comes_to_html_email_size_does_matter/)
 
+##Line height
+A classic rule-of-thumb is 1.5x the size of body copy. The wider your measure the more generous you can be with the line height. Jason Santa Maria [explains](https://vimeo.com/34178417#t=28m14s) "As your eye gets to the end of a long line of text it needs that cushion to get to the next one without getting lost... if your lines are shorter you can pack them in a little tighter".
+Very good research on this made [Style Campaign](http://stylecampaign.com/blog/2015/07/typographic-patterns-in-email/)
+
 
 ##Windows Phone address blue colour
 
