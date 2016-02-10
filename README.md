@@ -8,7 +8,7 @@ Collections of responsive HTML email tricks and hacks that works and been tested
 
 [Campaign Monitor thread] (https://www.campaignmonitor.com/forums/post/30195/#p30195)
 
-#### Outlook 2013 additional bullet point
+### Outlook 2013 additional bullet point
 
 Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. Basically, the bullet points can't be the last piece in the table.
 
@@ -24,16 +24,16 @@ Unordered list in Outlook 2013 shows additional bullet point, no problem in all 
 
 *Courtesy of [Peter Scher](https://www.campaignmonitor.com/forums/post/30101/#p30101)*
 
-#### cellspacing
+### cellspacing
 All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing value on table tag. No point to use them, better use nested table to create some space between elements.
 
 After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
 
-#### clipping email
+### clipping email
 As everyone knows Outlook sometimes clip email because it's too big. I had this issue when was coding long email template and Outlook was clipping it at different point, depend from amount of content. My content was wrapped in main `<table width="100%">`, I divided that table in two main tables and it's working nice. I presume Outlook was thinking that another table is new page and that's why it was working.
 Tested on Windows7 - Outlook2010
 
-#### Fixed table layout issue
+### Fixed table layout issue
 Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:fixed` on `table` element and `td`s don't have attribute `width` this application set different width for `td`s. But if add an empty `width` attribute to `td` it will set equal `td`s. 
 
 
@@ -102,7 +102,12 @@ A classic rule-of-thumb is 1.5x the size of body copy. The wider your measure th
 Very good research on this made [Style Campaign](http://stylecampaign.com/blog/2015/07/typographic-patterns-in-email/)
 
 
-##Windows Phone address blue colour
+##Windows Phone
+
+### IE=Edge meta tag
+This meta tag `<meta http-equiv="X-UA-Compatible" content="IE=edge" />` in the head of HTML file makes media queries work on Windows Phone 7.5 and higher. More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/)
+
+### Address blue colour
 
 Any ideas?
 
