@@ -33,6 +33,9 @@ After some more testing it seems that this is Internet Explorer issue. AOL, Gmai
 As everyone knows Outlook sometimes clip email because it's too big. I had this issue when was coding long email template and Outlook was clipping it at different point, depend from amount of content. My content was wrapped in main `<table width="100%">`, I divided that table in two main tables and it's working nice. I presume Outlook was thinking that another table is new page and that's why it was working.
 Tested on Windows7 - Outlook2010
 
+#### Fixed table layout issue
+Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:fixed` on `table` element and `td`s don't have attribute `width` this application set different width for `td`s. But if add an empty `width` attribute to `td` it will set equal `td`s. 
+
 
 ## Outlook.com p margin
 
