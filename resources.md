@@ -6,6 +6,9 @@ In this section, we'll go over some HTML email basics and introduce you to some 
 ###[Campaign Monitor](https://www.campaignmonitor.com/dev-resources/) email developer resources and guides
 Tools for coding HTML emails and guide to template language
 
+###Everything about [Windows Phone and Outlook](https://blog.jmwhite.co.uk/email-development/)
+James White blog is the best resourse on the web of Windows Phone and Outlook.
+
 ##Images
 
 ###[Pixlr] (https://pixlr.com/)
