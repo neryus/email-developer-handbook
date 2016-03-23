@@ -2,7 +2,7 @@ Collections of responsive HTML email tricks and hacks that works and been tested
 
 ## WebKit
 
-This media query only targets WebKit-supported email clients, which allows to use of modern techniques like HTML5, CSS3, animation, web fonts, and more.
+This media query only targets WebKit-supported email clients, which allows to use of modern techniques like HTML5, CSS3, animation, web fonts, and more. The best way to test this media query is to use Firefox vs. Safari/Chrome browsers.
 ```html
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   /* Insert styles here */
