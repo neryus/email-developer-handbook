@@ -11,8 +11,11 @@ James White blog is the best resourse on the web of Windows Phone and Outlook.
 
 ##Images
 
-###[Pixlr] (https://pixlr.com/)
+###[Pixlr](https://pixlr.com/)
 Image editor, have online app and desktop version. Tried only web app, from first sight it looks similar to photoshop. Worth to try.
 
-###[Ezgif] (http://ezgif.com/)
+###[Ezgif](http://ezgif.com/)
 Online animated gif maker and editor. Upload and edit images for free. Create, crop, resize, optimize and split animated gifs with ease.
+
+###[JPEGmini](http://www.jpegmini.com/)
+Image optimizer for desktop MAC and PC. It optimizes jpeg image size without lose in quality. Also have web service, didn't tried they web service, so don't know how good it is.
