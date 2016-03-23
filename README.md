@@ -1,5 +1,14 @@
 Collections of responsive HTML email tricks and hacks that works and been tested on Litmus and my own devices.
 
+## WebKit
+
+This media query only targets WebKit-supported email clients, which allows to use of modern techniques like HTML5, CSS3, animation, web fonts, and more.
+```html
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Insert styles here */
+}
+```
+
 ## Outlook desktop
 
 ### DPI Scaling in Outlook 2007-2013
