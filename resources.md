@@ -18,4 +18,4 @@ Image editor, have online app and desktop version. Tried only web app, from firs
 Online animated gif maker and editor. Upload and edit images for free. Create, crop, resize, optimize and split animated gifs with ease.
 
 ###[JPEGmini](http://www.jpegmini.com/)
-Image optimizer for desktop MAC and PC. It optimizes jpeg image size without lose in quality. Also have web service, didn't tried they web service, so don't know how good it is.
+Image optimizer for desktop MAC and PC. It optimizes jpeg image size without lose in quality. Also have [web service](http://www.jpegmini.com/), upload photo and after you will be able to download optimized version.
