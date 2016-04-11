@@ -13,7 +13,7 @@ This media query only targets WebKit-supported email clients, which allows to us
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only on Outlooks 2013 and 2016. Here is how it looks like in Outlook:
-[](https://raw.githubusercontent.com/neryus/email-developer-handbook/master/screenshots/screenshot-litmus%20com%202016-04-11%2017-21-32.jpg)
+![Text cut off](/screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg?raw=true)
 
 The simple solution would be add alignment to parent table `align="left"`. This works well on my issue.
 Courtesy of [Chris Clemente](http://www.informz.com/blog/template-design/quick-tip-fixing-outlook-2013-wrap-padding/)
