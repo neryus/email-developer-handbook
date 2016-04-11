@@ -13,7 +13,7 @@ This media query only targets WebKit-supported email clients, which allows to us
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only on Outlooks 2013 and 2016. Here is how it looks like in Outlook:
-[Screenshot](screenshots/)
+[Screenshot](screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg)
 
 ### DPI Scaling in Outlook 2007-2013
 
