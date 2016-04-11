@@ -13,7 +13,12 @@ This media query only targets WebKit-supported email clients, which allows to us
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only on Outlooks 2013 and 2016. Here is how it looks like in Outlook:
-[Screenshot](screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg)
+[Screenshot](email-developer-handbook/screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg)
+
+The simple solution would be add alignment to parent table `align="left"`. This works well on my issue.
+Courtesy of [Chris Clemente](http://www.informz.com/blog/template-design/quick-tip-fixing-outlook-2013-wrap-padding/)
+
+The more sophisticated solution would be using `mso-table-rspace:Npt` property on style attribute, according to [Campaign Monitor blog post](https://www.campaignmonitor.com/forums/topic/7836/text-cut-off-when-wrapping-around-image-in-nested-table-outlook-2013/)
 
 ### DPI Scaling in Outlook 2007-2013
 
