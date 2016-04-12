@@ -81,6 +81,7 @@ a[x-apple-data-detectors] {
     line-height: inherit !important;
 }
 ```
+*Update* It's enough to put this code only twice - one in styles and another in WebKit media query, tested and it works.
 
 *Courtesy of [removebluelinks.com](http://removebluelinks.com)*
 
