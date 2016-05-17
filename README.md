@@ -1,6 +1,6 @@
 Collections of responsive HTML email tricks and hacks that works and been tested on Litmus and my own devices.
 
-## WebKit
+## WebKit media query
 
 This media query only targets WebKit-supported email clients, which allows to use of modern techniques like HTML5, CSS3, animation, web fonts, and more. The best way to test this media query is to use Firefox vs. Safari/Chrome browsers.
 ```html
@@ -125,6 +125,8 @@ If your email exceeds 102KB, Gmail will display the first 102KB and then it will
 A classic rule-of-thumb is 1.5x the size of body copy. The wider your measure the more generous you can be with the line height. Jason Santa Maria [explains](https://vimeo.com/34178417#t=28m14s) "As your eye gets to the end of a long line of text it needs that cushion to get to the next one without getting lost... if your lines are shorter you can pack them in a little tighter".
 Very good research on this made [Style Campaign](http://stylecampaign.com/blog/2015/07/typographic-patterns-in-email/)
 
+##Android native email client
+Good examples of [Android versions](https://www.emailonacid.com/blog/article/email-development/how_android_is_strangling_responsive_design) that strip Doctype from HTML document.
 
 ##Windows Phone
 
