@@ -12,8 +12,9 @@ This media query only targets WebKit-supported email clients, which allows to us
 ## Outlook desktop
 
 ###Gap above images in Outlook 2013
-![Gap above image](/screenshots/2016-05-17_155028.jpg?raw=true)
-Very weird render of images in Outlook 2013.
+![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
+
+Very weird render of images in Outlook 2013 - this gap appears on images that height are less than 19px. On screen shot arrow is images, first arrow is 20px height, and second arrow is 17 px height. Outlook 2013 adding gap above for second arrow.
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only in Outlooks 2013 and 2016. Here is how it looks like in Outlook:
