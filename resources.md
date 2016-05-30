@@ -1,5 +1,8 @@
 #Resources
 
+###Outlook365 (OWA)
+The best recourse of Outlook365 quirks and workarounds is [James White blog](https://blog.jmwhite.co.uk/wp-content/cache/page_enhanced/blog.jmwhite.co.uk//2014/07/22/office-365-quirks-for-email-designers//_index.html).
+
 ###[Mailchimp Email Design Reference] (http://templates.mailchimp.com/)
 In this section, we'll go over some HTML email basics and introduce you to some MailChimp-specific information to help you get started.
 
