@@ -47,9 +47,11 @@ Tested on Windows7 - Outlook2010
 Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:fixed` on `table` element and `td`s don't have attribute `width` this application set different width for `td`s. But if add an empty `width` attribute to `td` it will set equal `td`s.
 
 ###Conditional comments
-```<!--[if mso]>
-	Outlook desktop conditional comment syntax
-	<![endif]-->
+
+```
+<!--[if mso]>
+Outlook desktop conditional comment syntax
+<![endif]-->
 ```
 
 For more selective targeting we can use '**gte**', '**lte**', '**gt**', '**lt**' and a number of Outlook version.
