@@ -4,7 +4,7 @@
 Very weird render of images in Outlook 2013 - this gap appears on images that height are less than 19px. On screen shot arrow is images, first arrow is 20px height, and second arrow is 17 px height. Outlook 2013 adding gap above for second arrow.
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
-It cuts off the left side of the text only in Outlooks 2013 and 2016. Here is how it looks like in Outlook:
+It cuts off the left side of the text only in Outlook 2013 and 2016. Here is how it looks like in Outlook:
 ![Text cut off](/screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg?raw=true)
 
 The simple solution would be add alignment to parent table `align="left"`. This works well on my issue.
