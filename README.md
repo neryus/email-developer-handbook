@@ -1,5 +1,13 @@
 Collections of responsive HTML email tricks and hacks that works and been tested on Litmus and my own devices.
 
+##Why we need to have image attribute `width` and we can't have instead `max-width` property?
+These versions of Outlook don't read `style` properties and that's why we need to have `width` attribute for images.
+
+* Outlook 2007
+* Outlook 2010
+* Outlook 2013
+* Windows 10 Mail
+ 
 ## WebKit media query
 
 This media query only targets WebKit-supported email clients, which allows to use of modern techniques like HTML5, CSS3, animation, web fonts, and more. The best way to test this media query is to use Firefox vs. Safari/Chrome browsers.
