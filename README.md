@@ -87,7 +87,13 @@ Good examples of [Android versions](https://www.emailonacid.com/blog/article/ema
 
 ##Windows Phone
 
-### IE=Edge meta tag
+###IE=Edge meta tag
 This meta tag `<meta http-equiv="X-UA-Compatible" content="IE=edge" />` in the head of HTML file makes media queries work on Windows Phone 7.5 and higher. More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/)
 
+###Email clients that don't inherit font-family property
+- Outlook 2007
+- Outlook 2010
+- Outlook 2013
+- Outlook 2016
+- Windows 10 Mail
 
