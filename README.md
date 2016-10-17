@@ -47,9 +47,39 @@ a[x-apple-data-detectors] {
 
 *Courtesy of [removebluelinks.com](http://removebluelinks.com)*
 
-##Gmail
+#Gmail
 
-`TABLE` background colour
+##[Gmail supports CSS and media queries](https://developers.google.com/gmail/design/css)
+*Last updated October 17, 2016*
+
+Gmail supports queries agains the screen width, orientation, and resolution.
+Supported types
+
+- all
+- screen
+
+Supported queries
+
+- min-width
+- max-width
+- min-device-width
+- max-device-width
+- orientation
+- min-resolution
+- max-resolution
+
+Supported keywords
+
+- and
+- only
+
+Full list of supported [CSS properties](https://developers.google.com/gmail/design/reference/supported_css).
+
+List of supported [email markup](https://developers.google.com/gmail/markup/) by Gmail, like [highlights](https://developers.google.com/gmail/markup/overview#highlights_in_inbox), [actions](https://developers.google.com/gmail/markup/overview#gmail_actions), [answers](https://developers.google.com/schemas/search/answers), [confirmation cards](https://developers.google.com/schemas/now/cards).
+
+This will take effect for Webmail users, but not for mobile because the end user needs to update software and not everyone will update it immediately. So this is not a good time to get rid of all Gmail markup/style tricks.
+
+##`TABLE` background colour
 
 Gmail is showing table background colour only on space that have content and it depends how much content there are. To force gmail rendering engine to show background colour on whole table add `bgcolor=""` to parent `TD`.
 
