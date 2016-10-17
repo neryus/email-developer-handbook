@@ -115,7 +115,7 @@ Very good research on this made [Style Campaign](http://stylecampaign.com/blog/2
 ##Android native email client
 Good examples of [Android versions](https://www.emailonacid.com/blog/article/email-development/how_android_is_strangling_responsive_design) that strip Doctype from HTML document.
 
-##Windows Phone
+#Windows Phone
 
 ###IE=Edge meta tag
 This meta tag `<meta http-equiv="X-UA-Compatible" content="IE=edge" />` in the head of HTML file makes media queries work on Windows Phone 7.5 and higher. More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/)
