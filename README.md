@@ -119,7 +119,7 @@ Good examples of [Android versions](https://www.emailonacid.com/blog/article/ema
 
 ###IE=Edge meta tag
 This meta tag `<meta http-equiv="X-UA-Compatible" content="IE=edge" />` force IE to render with it's highest capable standards, it's an instruction for the browsing mode to change. This will affect Windows Phone (exluding Exchange ActiveSync) and Outlook desktop 2000, 2002, 2003 email clients.
-More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/) 
+More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/) and [James White blog](https://blog.jmwhite.co.uk/2014/08/19/email-campaigns-windows-phone-part-2-pop3-and-imap/)
 
 ###Email clients that don't inherit font-family property
 - Outlook 2007
