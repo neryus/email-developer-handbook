@@ -67,4 +67,7 @@ Outlook version numbers
 * Outlook 2003 - Version 11
 * Outlook 2007 - Version 12
 * Outlook 2010 - Version 14
-* Outlook 2012 - Version 15
+* Outlook 2013 - Version 15
+* Outlook 2016 - Version 16
+
+The [full list](http://www.slipstick.com/outlook/outlook-version-numbers/) of Outlook version numbers
