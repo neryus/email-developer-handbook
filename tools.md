@@ -1,19 +1,36 @@
-##Code editors and plugins
+##Code editors
 
-Here is only my opinion on different code editors, what plugins, features and tools I use.
+Email developer code editors, usefull plugins, features and tools.
 
 ###Adobe Dreamweaver
 At work I'm using Dreamweaver version CS5.5 and I find it very good for editing, troubleshooting an email templates. Mostly because of design view and select tool.
 
 Tools:
 - Find and Replace (current document, open documents, folder)
+- Select tool in design view
+- Collapse full tag
+- Apply/Remove comment
+- W3C Validation
+- Preview in browser
+- Code hints
+- Code snippets
+- Default keyboard shortcut for break line element
 
 Plugins:
-- Emmet
+- Emmet, after some headache to install it in Dreamweaver this tool saves a lot of repeating typing.
 
 ###Atom
 
 ###Brackets
+
+I find Brackets very usefull for creating email templates from scratch.
+
+Tools:
+- Find function (Alt+F3), it selects all match strings and you can them all in one, just start typing new string.
+- Multi selection is awesome for emails.
+
+My set up:
+- Emmet
 
 ###HTMLPad
 
