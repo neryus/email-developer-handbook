@@ -9,6 +9,7 @@ Tools:
 - Find and Replace (current document, open documents, folder)
 - Select tool in design view
 - Collapse full tag
+- Quick tag editor (to quickly wrap text in tags select it, press Ctrl+T to open the tag editor, start typing to move quickly to the tags you want to wrap the text in, using the up down arrow keys if need).
 - Apply/Remove comment
 - W3C Validation
 - Preview in browser
