@@ -39,11 +39,13 @@ All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing 
 
 After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
 
-### Clipping email
-As everyone knows Outlook sometimes clip email because it's too big. I had this issue when was coding long email template and Outlook was clipping it at different point, depend from amount of content. My content was wrapped in main `<table width="100%">`, I divided that table in two main tables and it's working nice. I presume Outlook was thinking that another table is new page and that's why it was working.
+### The Outlook page break issue
+The Word engine has a [document length limit of 22 inches](http://support.microsoft.com/kb/95109) or around 1800 pixels. When a document - an email, in this case - hits that length, Outlook inserts a page break to aid with document printing.
+As one of the solutions would be divided container table to two tables and force Outlook to think that each table is a page.
 Tested on Windows7 - Outlook2010
 
-### Fixed table layout issue
+
+### `table-layout:fixed` issue
 Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:fixed` on `table` element and `td`s don't have attribute `width` this application set different width for `td`s. But if add an empty `width` attribute to `td` it will set equal `td`s.
 
 ###Conditional comments
