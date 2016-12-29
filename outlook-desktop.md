@@ -39,7 +39,7 @@ All Outlook desktop versions (Windows versions) and Lotus8 ignoring cellspacing 
 
 After some more testing it seems that this is Internet Explorer issue. AOL, Gmail and Outlook.com ignoring cellspacing value only on Internet Explorer browser, but not Yahoo Mail.
 
-### The Outlook page break issue
+### The Outlook 2007-2013 page break issue
 The Word engine has a [document length limit of 22 inches](http://support.microsoft.com/kb/95109) or around 1800 pixels. When a document - an email, in this case - hits that length, Outlook inserts a page break to aid with document printing.
 As one of the solutions would be divided container table to two tables and force Outlook to think that each table is a page.
 Tested on Windows7 - Outlook2010
