@@ -32,6 +32,7 @@ Tools:
 
 My set up:
 - Emmet
+- [Bracket Snippets](https://github.com/chuyik/brackets-snippets)
 
 ###HTMLPad
 
