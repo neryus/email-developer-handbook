@@ -30,9 +30,17 @@ Tools:
 - Find function (Alt+F3), it selects all match strings and you can them all in one, just start typing new string.
 - Multi selection is awesome for emails.
 
-My set up:
-- Emmet
-- [Bracket Snippets](https://github.com/chuyik/brackets-snippets)
+My extensions:
+- [Emmet](http://emmet.io/)
+- [Bracket Snippets](https://github.com/chuyik/brackets-snippets) (by edc)
+- [Bracket Snippets](https://github.com/zaggino/brackets-snippets) (by zaggino)
+- [Brackets Icons](https://github.com/ivogabe/Brackets-Icons)
+- [Live Preview for Responsive](https://github.com/mikankari/multireso/) - it works only if default app for HTML docs are browser.
+- [Lorem Ipsum](https://github.com/lkcampbell/brackets-lorem-ipsum)
+- [Lorem Pixel](https://github.com/dnbard/brackets-lorem-pixel)
+- [Quick Markup](https://github.com/redmunds/brackets-quick-markup)
+- [Response for Brackets - original](https://github.com/brimelow/Response-for-Brackets)
+
 
 ###HTMLPad
 
