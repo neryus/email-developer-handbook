@@ -31,15 +31,20 @@ Tools:
 - Multi selection is awesome for emails.
 
 My extensions:
-- [Emmet](http://emmet.io/)
+- [Brackets Editor Bookmarks](https://github.com/JeffryBooher/brackets-bookmarks-extension)
+- [Brackets Icons](https://github.com/ivogabe/Brackets-Icons)
 - [Bracket Snippets](https://github.com/chuyik/brackets-snippets) (by edc)
 - [Bracket Snippets](https://github.com/zaggino/brackets-snippets) (by zaggino)
-- [Brackets Icons](https://github.com/ivogabe/Brackets-Icons)
+- [Emmet](http://emmet.io/)
 - [Live Preview for Responsive](https://github.com/mikankari/multireso/) - it works only if default app for HTML docs are browser.
 - [Lorem Ipsum](https://github.com/lkcampbell/brackets-lorem-ipsum)
 - [Lorem Pixel](https://github.com/dnbard/brackets-lorem-pixel)
+- [Quick MDN doc](https://github.com/renanveroneze/brackets-quick-mdn-doc)
 - [Quick Markup](https://github.com/redmunds/brackets-quick-markup)
 - [Response for Brackets - original](https://github.com/brimelow/Response-for-Brackets)
+- [W3CValidation](https://github.com/cfjedimaster/brackets-w3cvalidation)
+
+My themes:
 
 
 ###HTMLPad
