@@ -43,6 +43,7 @@ My extensions:
 - [Quick Markup](https://github.com/redmunds/brackets-quick-markup)
 - [Response for Brackets - original](https://github.com/brimelow/Response-for-Brackets)
 - [W3CValidation](https://github.com/cfjedimaster/brackets-w3cvalidation)
+- [Color Merge](https://github.com/samilaakkonen/brackets-color-merge)
 
 My themes:
 
