@@ -1,3 +1,11 @@
+###The white horizontal line Outlook 2016
+
+![The actual issue](http://i.imgur.com/Mf0qqHd.png)
+![The fixed version](http://i.imgur.com/cOSDS7W.png)
+
+The fix for this design/code was very simple - remove all height values from parent `TD` element.
+The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue.
+
 ###Gap above images in Outlook 2013
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
 
