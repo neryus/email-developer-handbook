@@ -5,7 +5,7 @@
 
 The fix for this design/code was very simple - remove all height values from parent `TD` element.
 
-The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue.
+The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue. But the [article from Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/) have more on details what can cause this bug to appear.
 
 ###Gap above images in Outlook 2013
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
