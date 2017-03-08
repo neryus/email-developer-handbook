@@ -5,14 +5,17 @@ The horizontal line is the same color as body background, so if email container 
 ![The actual issue](http://i.imgur.com/Mf0qqHd.png)
 ![The fixed version](http://i.imgur.com/cOSDS7W.png)
 
-The fix for this particualr design/code was very simple - remove all height values from parent `TD` element.
+The fix for this particular design/code was very simple - remove all height values from parent `TD` element.
 
 The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue. But the [article from Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/) have more on details what can cause this bug to appear.
 
-###Gap above images in Outlook 2013
+###Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
 
-Very weird render of images in Outlook 2013 - this gap appears on images that height are less than 19px. On screen shot arrow is images, first arrow is 20px height, and second arrow is 17 px height. Outlook 2013 adding gap above for second arrow.
+The weird render of images in Outlook 2013/2016 - this gap appears on images that height are less than 19px. On the screen shot the arrows are the images, the first arrow is 20px height, and the second arrow is 17 px height. Outlook 2013 adding gap above for the second arrow.
+Long story short, use images no smaller than 20px height.
+Some reading on [Campaing Monitor](https://www.campaignmonitor.com/forums/topic/7945/gaps-between-images-in-outlook-2013-fix-causes-issues-in-other-places/) forum
+
 
 ###Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only in Outlook 2013 and 2016. Here is how it looks like in Outlook:
