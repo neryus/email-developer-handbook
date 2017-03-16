@@ -1,6 +1,6 @@
 Collections of responsive HTML email tricks and hacks that works and been tested on Litmus and my own devices.
 
-##Why we need to have image attribute `width` and we can't have instead `max-width` property?
+## Why we need to have image attribute `width` and we can't have instead `max-width` property?
 These versions of Outlook don't read `style` properties and that's why we need to have `width` attribute for images.
 
 * Outlook 2007
@@ -27,7 +27,7 @@ Outlook.com adding *margin-bottom:1.35em* to every paragraph tag. So we will for
 Note
 Margin should be capitalize, otherwise it will not work.
 
-##Remove blue links in iOS
+## Remove blue links in iOS
 
 Fix automatic styling of auto-generated blue-lnks on Apple devices such as iPhone
 
@@ -47,9 +47,9 @@ a[x-apple-data-detectors] {
 
 *Courtesy of [removebluelinks.com](http://removebluelinks.com)*
 
-#Gmail
+# Gmail
 
-##[Gmail supports CSS and media queries](https://developers.google.com/gmail/design/css)
+## [Gmail supports CSS and media queries](https://developers.google.com/gmail/design/css)
 *Last updated October 17, 2016*
 
 Gmail supports queries agains the screen width, orientation, and resolution.
@@ -79,11 +79,11 @@ List of supported [email markup](https://developers.google.com/gmail/markup/) by
 
 This will take effect for Webmail users, but not for mobile because the end user needs to update software and not everyone will update it immediately. So this is not a good time to get rid of all Gmail markup/style tricks.
 
-##`TABLE` background colour
+## `TABLE` background colour
 
 Gmail is showing table background colour only on space that have content and it depends how much content there are. To force gmail rendering engine to show background colour on whole table add `bgcolor=""` to parent `TD`.
 
-##Gmail App Zooming
+## Gmail App Zooming
 
 Stop Gmail app from zooming text.
 
@@ -93,7 +93,7 @@ Stop Gmail app from zooming text.
 
 *Courtesy of [Chriss Wise](http://chriswi.se/)*
 
-##Gmail App p margin
+## Gmail App p margin
 
 Stop Gmail App from adding margin-top and margin-bottom.
 
@@ -101,27 +101,27 @@ Stop Gmail App from adding margin-top and margin-bottom.
     margin:0px;
 ```
 
-##Gmail white line under image
+## Gmail white line under image
 
 To stop appear white line below image add `display:block` to image styles.
 
-##Email size does matter at least on Gmail
+## Email size does matter at least on Gmail
 If your email exceeds 102KB, Gmail will display the first 102KB and then it will clip off the remainder with a few different variations depending on the device. Image sizes are not counted, but all comments are. Full article on [Email on Acid](https://www.emailonacid.com/blog/article/email-development/when_it_comes_to_html_email_size_does_matter/)
 
-##Line height
+## Line height
 A classic rule-of-thumb is 1.5x the size of body copy. The wider your measure the more generous you can be with the line height. Jason Santa Maria [explains](https://vimeo.com/34178417#t=28m14s) "As your eye gets to the end of a long line of text it needs that cushion to get to the next one without getting lost... if your lines are shorter you can pack them in a little tighter".
 Very good research on this made [Style Campaign](http://stylecampaign.com/blog/2015/07/typographic-patterns-in-email/)
 
-##Android native email client
+## Android native email client
 Good examples of [Android versions](https://www.emailonacid.com/blog/article/email-development/how_android_is_strangling_responsive_design) that strip Doctype from HTML document.
 
-#Windows Phone
+# Windows Phone
 
-###IE=Edge meta tag
+### IE=Edge meta tag
 This meta tag `<meta http-equiv="X-UA-Compatible" content="IE=edge" />` force IE to render with it's highest capable standards, it's an instruction for the browsing mode to change. This will affect Windows Phone (exluding Exchange ActiveSync) and Outlook desktop 2000, 2002, 2003 email clients.
 More about this on [Campaign Monitor forum](https://www.campaignmonitor.com/forums/topic/7989/windows-phone-8-has-full-css3media-query-support/) and [James White blog](https://blog.jmwhite.co.uk/2014/08/19/email-campaigns-windows-phone-part-2-pop3-and-imap/)
 
-###Email clients that don't inherit font-family property
+### Email clients that don't inherit font-family property
 - Outlook 2007
 - Outlook 2010
 - Outlook 2013
