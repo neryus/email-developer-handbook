@@ -25,7 +25,7 @@ Email verification self-service with pay as you go pricing scheme.
 - [Ezgif](http://ezgif.com/). Online animated gif maker and editor. Upload and edit images for free. Create, crop, resize, optimize and split animated gifs with ease.
 - [picasion](http://picasion.com/get-photo)
 - [GIPHY](http://giphy.com/). Online gif's editor. Giphy accepts this fyle formats - gif, mp4, mov, mpg and m4v. Have a nice collection of filters. Probably the best online and free gif editor that I saw on the web.
-- [Instagiffer](http://instagiffer.com/). From Video To GIF (Mac and PC)
+- [Instagiffer](http://instagiffer.com/). Create animated GIFs from YouTube, HD video files, Vine, Netflix, Kodi, game streams, and more. Unlike most GIF tools, you can open video streams and files DIRECTLY, ensuring the highest possible frame rate and resolution. It's easy to use, completely free, and is guaranteed to be vaccinated against Spyware. Add filters, text, or logos to your GIFs. Get creative by showing off your digital art, or GIF your favorite music videos, TV shows, and movies. To get started download the latest [PC](http://instagiffer.com/) or [Mac](http://instagiffer.com/) version and check out [video tutorial](https://www.youtube.com/playlist?list=PLAKf1S0sDJDhNbEbIkgBIBqWDrOXzcSUe) series.
 
 ### [Pixlr](https://pixlr.com/)
 Image editor, have online app and desktop version. Tried only web app, from first sight it looks similar to photoshop. Worth to try.
