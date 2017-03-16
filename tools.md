@@ -23,6 +23,11 @@ Plugins:
 ### Atom
 
 My extensions:
+- [eddy-malou-lorem-ipsum](https://atom.io/packages/eddy-malou-lorem-ipsum)
+- [emmet](https://atom.io/packages/eddy-malou-lorem-ipsum)
+- [spacegray-atom-dark-syntax](https://atom.io/themes/spacegray-atom-dark-syntax)
+- [pigments](https://atom.io/packages/pigments)
+- [html-nested-comments](https://atom.io/packages/html-nested-comments)
 - [Palladium](https://atom.io/packages/palladium) - didn't tried yet. But it's sounds promising to be able to send test emails straight from Atom.
 
 ### Brackets
