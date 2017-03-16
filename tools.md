@@ -22,6 +22,9 @@ Plugins:
 
 ###Atom
 
+My extensions:
+- [Palladium](https://atom.io/packages/palladium) - didn't tried yet. But it's sounds promising to be able to send test emails straight from Atom.
+
 ###Brackets
 
 I find Brackets very usefull for creating email templates from scratch.
