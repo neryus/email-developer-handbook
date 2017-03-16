@@ -1,8 +1,8 @@
-##Code editors
+## Code editors
 
 Email developer code editors, usefull plugins, features and tools.
 
-###Adobe Dreamweaver
+### Adobe Dreamweaver
 At work I'm using Dreamweaver version CS5.5 and I find it very good for editing, troubleshooting an email templates. Mostly because of design view and select tool.
 
 Tools:
@@ -20,12 +20,12 @@ Tools:
 Plugins:
 - Emmet, after some headache to install it in Dreamweaver this tool saves a lot of repeating typing.
 
-###Atom
+### Atom
 
 My extensions:
 - [Palladium](https://atom.io/packages/palladium) - didn't tried yet. But it's sounds promising to be able to send test emails straight from Atom.
 
-###Brackets
+### Brackets
 
 I find Brackets very usefull for creating email templates from scratch.
 
@@ -51,10 +51,10 @@ My extensions:
 My themes:
 
 
-###HTMLPad
+### HTMLPad
 
-###Litmus Builder
+### Litmus Builder
 
-###Notepad++
+### Notepad++
 
-###Sublime Text
+### Sublime Text
