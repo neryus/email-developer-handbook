@@ -20,14 +20,12 @@ Email verification self-service with pay as you go pricing scheme.
 ## Images
 
 ### GIFs
-
 - [GIFMaker.me](http://gifmaker.me/)
 - [imgflip](https://imgflip.com/images-to-gif)
-- [Ezgif](http://ezgif.com/)
-Online animated gif maker and editor. Upload and edit images for free. Create, crop, resize, optimize and split animated gifs with ease.
+- [Ezgif](http://ezgif.com/). Online animated gif maker and editor. Upload and edit images for free. Create, crop, resize, optimize and split animated gifs with ease.
 - [picasion](http://picasion.com/get-photo)
-- [GIPHY](http://giphy.com/)
-Online gif's editor. Giphy accepts this fyle formats - gif, mp4, mov, mpg and m4v. Have a nice collection of filters. Probably the best online and free gif editor that I saw on the web.
+- [GIPHY](http://giphy.com/). Online gif's editor. Giphy accepts this fyle formats - gif, mp4, mov, mpg and m4v. Have a nice collection of filters. Probably the best online and free gif editor that I saw on the web.
+- [Instagiffer](http://instagiffer.com/). From Video To GIF (Mac and PC)
 
 ### [Pixlr](https://pixlr.com/)
 Image editor, have online app and desktop version. Tried only web app, from first sight it looks similar to photoshop. Worth to try.
