@@ -1,4 +1,4 @@
-###The white horizontal line Outlook 2016
+### The white horizontal line Outlook 2016
 
 The horizontal line is the same color as body background, so if email container is dark colour and body background is not specified the lines will be white in Outlook 2016.
 
@@ -9,7 +9,7 @@ The fix for this particular design/code was very simple - remove all height valu
 
 The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue. But the [article from Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/) have more on details what can cause this bug to appear.
 
-###Gaps above the image in Outlook 2013/2016
+### Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
 
 The weird render of images in Outlook 2013/2016 - this gap appears on images that height are less than 19px. On the screen shot the arrows are the images, the first arrow is 20px height, and the second arrow is 17 px height. Outlook 2013 adding gap above for the second arrow.
@@ -17,7 +17,7 @@ Long story short, use images no smaller than 20px height.
 Some reading on [Campaing Monitor](https://www.campaignmonitor.com/forums/topic/7945/gaps-between-images-in-outlook-2013-fix-causes-issues-in-other-places/) forum
 
 
-###Text cut off when wrapping around image in Outlook 2013, 2016
+### Text cut off when wrapping around image in Outlook 2013, 2016
 It cuts off the left side of the text only in Outlook 2013 and 2016. Here is how it looks like in Outlook:
 ![Text cut off](/screenshots/screenshot-litmus com 2016-04-11 17-21-32.jpg?raw=true)
 
@@ -62,7 +62,7 @@ Tested on Windows7 - Outlook2010
 ### `table-layout:fixed` issue
 Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:fixed` on `table` element and `td`s don't have attribute `width` this application set different width for `td`s. But if add an empty `width` attribute to `td` it will set equal `td`s.
 
-###Conditional comments
+### Conditional comments
 
 ```
 <!--[if mso]>
