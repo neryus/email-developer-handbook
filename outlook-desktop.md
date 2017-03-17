@@ -34,16 +34,16 @@ The more sophisticated solution would be using `mso-table-rspace:Npt` property o
 
 ### Outlook 2013 additional bullet point
 
-Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add block element with non-breaking space, it can be `div` or `span`. Basically, the bullet points can't be the last piece in the table.
+Unordered list in Outlook 2013 shows additional bullet point, no problem in all other email clients. To fix this add element with non-breaking space, it can be `div` or `span`. Basically, the bullet points can't be the last piece in the table.
 
 ```html
-	<ul>
+<ul>
     <li>Phasellus viverra nulla ut metus varius laoreet.<br /><br /></li>
     <li>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</li>
     <li>Phasellus viverra nulla ut metus varius laoreet.</li>
     <li>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</li>
-	</ul>
-	<span style="display:none;">&nbsp;</span>
+</ul>
+<span style="display:none;">&nbsp;</span>
 ```
 
 *Courtesy of [Peter Scher](https://www.campaignmonitor.com/forums/post/30101/#p30101)*
