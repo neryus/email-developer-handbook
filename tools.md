@@ -18,7 +18,7 @@ Tools:
 - Default keyboard shortcut for break line element
 
 Plugins:
-- Emmet, after some headache to install it in Dreamweaver this tool saves a lot of repeating typing.
+- [Emmet](https://github.com/emmetio/dreamweaver), after some headache to install and set up it on Dreamweaver this tool saves a lot of repeating typing.
 
 ### Atom
 
