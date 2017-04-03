@@ -3,6 +3,7 @@
 Email developer code editors, usefull plugins, features and tools.
 
 ### Adobe Dreamweaver
+My work machine get update, actually only Adobe CS was updated to CS6.
 At work I'm using Dreamweaver version CS5.5 and I find it very good for editing, troubleshooting an email templates. Mostly because of design view and select tool.
 
 Tools:
@@ -14,7 +15,8 @@ Tools:
 - W3C Validation
 - Preview in browser
 - Code hints
-- Code snippets
+- Code snippets.
+  To import custom snippets to the Dreamweaver is a bit complicated stuff. First you need to create custom snippet, after you will be able to locate snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\David\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
 - Default keyboard shortcut for break line element
 
 Plugins:
