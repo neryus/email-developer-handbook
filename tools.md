@@ -16,7 +16,7 @@ Tools:
 - Preview in browser
 - Code hints
 - Code snippets.
-  To import custom snippets to the Dreamweaver is a bit complicated stuff. First you need to create custom snippet, after you will be able to locate snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\David\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
+  To import custom snippets to the Dreamweaver is a bit [complicated stuff](https://forums.adobe.com/thread/1005503). First you need to create custom snippet, after you will be able to locate snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\David\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
 - Default keyboard shortcut for break line element
 
 Plugins:
