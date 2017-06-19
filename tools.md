@@ -54,6 +54,7 @@ My extensions:
 - [Response for Brackets - original](https://github.com/brimelow/Response-for-Brackets)
 - [W3CValidation](https://github.com/cfjedimaster/brackets-w3cvalidation)
 - [Color Merge](https://github.com/samilaakkonen/brackets-color-merge)
+- [CSScomb](https://github.com/i-akhmadullin/brackets-csscomb)
 
 My themes:
 
