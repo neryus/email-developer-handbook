@@ -55,6 +55,7 @@ My extensions:
 - [W3CValidation](https://github.com/cfjedimaster/brackets-w3cvalidation)
 - [Color Merge](https://github.com/samilaakkonen/brackets-color-merge)
 - [CSScomb](https://github.com/i-akhmadullin/brackets-csscomb)
+- [Work Heatmap](https://github.com/gem0303/work-heatmap)
 
 My themes:
 
