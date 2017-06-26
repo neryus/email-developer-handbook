@@ -6,6 +6,7 @@ The horizontal line is the same color as body background, so if email container 
 ![The fixed version](http://i.imgur.com/cOSDS7W.png)
 
 The fix for this particular design/code was very simple - remove all height values from parent `TD` element.
+Update. After spending some time on testing Creative Review Mastering Creativity template the issue was fixed by removing no-break space character for spacing and adjusting text size.
 
 The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue. But the [article from Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/) have more on details what can cause this bug to appear.
 
