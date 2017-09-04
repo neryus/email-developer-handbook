@@ -36,3 +36,6 @@ Image editor, have online app and desktop version. Tried only web app, from firs
 
 ### [JPEGmini](http://www.jpegmini.com/)
 Image optimizer for desktop MAC and PC. It optimizes jpeg image size without lose in quality. Also have [web service](http://www.jpegmini.com/), upload photo and after you will be able to download optimized version.
+
+### [TinyPNG](https://tinypng.com/)
+It reduce the file size of PNG and JPEG.
