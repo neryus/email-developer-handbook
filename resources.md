@@ -17,6 +17,10 @@ James White blog is the best resourse on the web of Windows Phone and Outlook.
 ### [briteverify.com](http://www.briteverify.com/)
 Email verification self-service with pay as you go pricing scheme.
 
+### [Kickbox](https://kickbox.io/email-verification)
+Kickbox offers 100 free verifications. Purchase additional verifications on demand.
+
+
 ## Images
 
 ### GIFs
