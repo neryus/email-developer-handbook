@@ -1,3 +1,13 @@
+## Targeting Yahoo! Mail
+
+To target only Yahoo! Mail use this media querry:
+
+````
+@media yahoo {
+  .div1 {width:200px;}
+}
+````
+
 ## Hide content
 `mso-hide:all` - Outlook (Word) clients, if there are nested tables this rule should be aplied to them too.
 
