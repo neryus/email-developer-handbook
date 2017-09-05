@@ -1,3 +1,9 @@
+## Hide content
+`mso-hide:all` - Outlook (Word) clients, if there are nested tables this rule should be aplied to them too.
+
+`display:none` - Generic (exept Outlook-Word, Yahoo).
+
+
 ## [SFR.fr](https://www.sfr.fr/cas/login?service=https%3A%2F%2Fwebmail.sfr.fr%2Fwebmail%2Fj_spring_cas_security_check#sfrintid=HH_Top) email client
 
 To align `table` to center nest it inside `<div align="center">`, this email client ignore parent `td` aligned to center.
