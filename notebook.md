@@ -1,6 +1,6 @@
 ## [SFR.fr](https://www.sfr.fr/cas/login?service=https%3A%2F%2Fwebmail.sfr.fr%2Fwebmail%2Fj_spring_cas_security_check#sfrintid=HH_Top) email client
 
-To align `table` to center use `div align="center"`, this email client ignore parent `td` aligned to center.
+To align `table` to center nest it inside `<div align="center">`, this email client ignore parent `td` aligned to center.
 
 Email client don't like when `b` tag have nested span element, e.g. `<b><span style="color:#fbr843>Hello Mickey</span></b>` it will not change text to bold.
 
