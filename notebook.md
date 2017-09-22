@@ -1,7 +1,9 @@
-## T-Online.de
+## T-Online.de border issue
 
 The email client don't display the inlined border value. The workaround can be to use div element as parent with border style.
 
+![T-Online.de](https://i.imgur.com/vBcIjgC.png)
+![Web.de](https://i.imgur.com/tYYxO3i.png)
 
 
 ## Targeting Yahoo! Mail
