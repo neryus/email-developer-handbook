@@ -1,3 +1,9 @@
+## T-Online.de
+
+The email client don't display the inlined border value. The workaround can be to use div element as parent with border style.
+
+
+
 ## Targeting Yahoo! Mail
 
 To target only Yahoo! Mail use this media querry:
