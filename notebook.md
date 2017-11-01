@@ -1,3 +1,21 @@
+## Windows 10 Mail link underline
+
+W10 Mail email client displays underline even the 'text-decoration:none' is defined inline for links.
+![Imgur](https://i.imgur.com/uEO1vEN.png)
+
+The solution is to add global styles declaration for Outlook specific styles by targeting Windows 10 Mail client:
+````
+<!--[if (mso 16)]>
+<style type="text/css">
+a{text-decoration:none;}
+</style>
+<![endif]-->
+````
+
+## Windows 10 Mail body background
+
+For this email client the background colour value should be set on container `table` instead of the `body` element.
+
 ## T-Online.de border issue
 
 The email client don't display the inlined border value. The workaround can be to use div element as parent with border style.
