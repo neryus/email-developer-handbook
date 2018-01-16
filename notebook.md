@@ -19,7 +19,7 @@ For this email client the background colour value should be set on container `ta
 ## T-Online.de border issue
 
 The email client don't display the inlined border value. The workaround can be to use div element as parent with border style.
-
+Update. The border value is not displayed for `table` element, but it displayed for `td` element.
 ![T-Online.de](https://i.imgur.com/vBcIjgC.png)
 ![Web.de](https://i.imgur.com/tYYxO3i.png)
 
