@@ -1,16 +1,23 @@
+* [Windows 10 Mail](#windows-10-mail-link-underline)
+* [T-Online](#t-onlinede-border-issue)
+* [Yahoo Mail](#targeting-yahoo-mail)
+* [SFR.fr](#sfrfr-email-client)
+* [Orange.fr](#orangefr-web-mail-client)
+* [Mail.ru](#mailru)
+
 ## Windows 10 Mail link underline
 
 W10 Mail email client displays underline even the 'text-decoration:none' is defined inline for links.
 ![Imgur](https://i.imgur.com/uEO1vEN.png)
 
 The solution is to add global styles declaration for Outlook specific styles by targeting Windows 10 Mail client:
-````
+```html
 <!--[if (mso 16)]>
 <style type="text/css">
 a{text-decoration:none;}
 </style>
 <![endif]-->
-````
+```
 
 ## Windows 10 Mail body background
 
@@ -28,11 +35,11 @@ Update. The border value is not displayed for `table` element, but it displayed 
 
 To target only Yahoo! Mail use this media querry:
 
-````
+```css
 @media yahoo {
   .div1 {width:200px;}
 }
-````
+```
 
 ## Hide content
 `mso-hide:all` - Outlook (Word) clients, if there are nested tables this rule should be aplied to them too.
