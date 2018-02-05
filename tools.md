@@ -70,7 +70,9 @@ My themes:
 
 ## Image Optimaizers
 
-### TinyPNG, TinyJPG
+### [TinyPNG](https://tinypng.com/), TinyJPG
+
+At the moment it's the best tool to optimize image size. Easy to use for small amount of images.
 
 ### [Kraken.io](https://kraken.io/web-interface) Web
 
