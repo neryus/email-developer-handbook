@@ -67,3 +67,11 @@ My themes:
 ### Notepad++
 
 ### Sublime Text
+
+## Image Optimaizers
+
+### TinyPNG, TinyJPG
+
+### [Kraken.io](https://kraken.io/web-interface) Web
+
+Has a free option with web interface, which is good if you using this tools from time to time or just couple times a day. But I found that not every jpg or png image would be optimized.
