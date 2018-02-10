@@ -78,6 +78,6 @@ At the moment it's the best tool to optimize image size. Easy to use for small a
 
 Has a free option with web interface, which is good if you using this tools from time to time or just couple times a day. But I found that not every jpg or png image would be optimized.
 
-### [Imageoptim](https://imageoptim.com/)
+### [ImageOptim](https://imageoptim.com/online)
 ### [Compressor](https://compressor.io/)
 ### [Jpegmini](http://www.jpegmini.com/)
