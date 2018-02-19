@@ -23,6 +23,10 @@ a{text-decoration:none;}
 
 For this email client the background colour value should be set on container `table` instead of the `body` element.
 
+## Windows 10 Mail link colour #e71d4a automaticaly changed to internet blue
+
+The fix is to use related colour instead of #e71d4a.
+
 ## T-Online.de border issue
 
 The email client don't display the inlined border value. The workaround can be to use div element as parent with border style.
