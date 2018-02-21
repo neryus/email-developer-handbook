@@ -16,6 +16,7 @@
   * [Figma](#figma)
   * [Photopea](#photopea)
 * [GIF](#gif)
+  * [LICEcap](#LICEcap)
 
 ## Code editors
 Code editors for development of HTML emails:
@@ -108,3 +109,6 @@ The free image editor is web-based and comes with a UI that is very similar to w
 ## GIF
 ### Animated GIF maker [imgflip](https://imgflip.com/gifgenerator)
 Make animated GIFs from video files, Youtube, or video websites.
+
+### [LICEcap](https://www.cockos.com/licecap/)
+
