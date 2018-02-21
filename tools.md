@@ -111,4 +111,4 @@ The free image editor is web-based and comes with a UI that is very similar to w
 Make animated GIFs from video files, Youtube, or video websites.
 
 ### [LICEcap](https://www.cockos.com/licecap/)
-
+This desktop capture tool allows to output image as a gif. Available for Windows and OSX users. Good tool to capture videos or providing instructions.
