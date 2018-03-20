@@ -1,10 +1,11 @@
-### The white horizontal line Outlook 2016
+### The horizontal line same colour as `body` background in Outlook 2016
 
-The horizontal line is the same color as body background, so if email container is dark colour and body background is not specified the lines will be white in Outlook 2016.
+The horizontal line is the same colour as `body` background, if email container is dark colour and body background is not specified the lines will be white in Outlook 2016.
 
 ![The actual issue](http://i.imgur.com/Mf0qqHd.png)
 ![The fixed version](http://i.imgur.com/cOSDS7W.png)
 
+Some of 
 The fix for this particular design/code was very simple - remove all height values from parent `TD` element.
 Update. After spending some time on testing Creative Review Mastering Creativity template the issue was fixed by removing no-break space character for spacing and adjusting text size.
 
