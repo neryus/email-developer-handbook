@@ -5,6 +5,8 @@ AMPscript is a language in two parts: a syntax and library of functions.
 
 ## Syntax
 
-### Calling the data extension attribute that has space
+### Attribute and Data Extension values  
+Functions and scripts reference subscriber attributes, email attributes and data extension column values as unquoted strings. If the attribute, data extension column, table, or relationship name includes a space or special character, or hyphen, enclose value in square brackets.
 
-`[column name]`
+`[Data Extension Attribute Name]`  
+`[Attribute-Name]`
