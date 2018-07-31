@@ -4,6 +4,7 @@
 * [SFR.fr](#sfrfr-email-client)
 * [Orange.fr](#orangefr-web-mail-client)
 * [Mail.ru](#mailru)
+* [Samsung Mail](#samsung-mail-blue-link)
 
 ## Windows 10 Mail link underline
 
@@ -64,3 +65,18 @@ The vertical alignment of `TD` content works only if CSS property - `vertical-al
 ## [Mail.ru](https://e.mail.ru/login)
 
 If the text size is big then `line-height` style property should be added, other wise the text will overlap.
+
+## Samsung Mail Blue Link
+
+To remove blue links in Samsung Mobile
+
+```
+#MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+```
