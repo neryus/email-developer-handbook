@@ -6,6 +6,10 @@
   * [Litmus Builder](#litmus-builder)
   * [Notepad++](#notepad)
   * [Sublime Text](#sublime-text)
+* [CSS Inliners](#css-inliners)
+  * [Premailer](#premailer)
+  * [Mailchimp](#mailchimp)
+  * [Campaign Monitor](#campaign-monitor)
 * [Image optimaizers](#image-optimizers)
   * [TinyPNG](#tinypng-tinyjpg)
   * [Kraken.io](#krakenio-web)
@@ -84,6 +88,18 @@ My extensions:
 
 ### Sublime Text
 
+## CSS Inliners
+
+Some email clients strip out or just ignore &lt;head&gt; and &lt;style&gt; tags from emails, so it's best to have your CSS written inline within your markup.
+
+### [Premailer](http://premailer.dialect.ca/)
+
+### [Mailchimp](https://templates.mailchimp.com/resources/inline-css/)
+
+Very basic tool, do what it says. Just paste your CSS and HTML and you will get inlined styles to your markup. It keeps classes in markup, not delete them.
+
+### [Campaign Monitor](https://inliner.cm/)
+  
 ## Image Optimizers
 
 ### [TinyPNG](https://tinypng.com/), TinyJPG
