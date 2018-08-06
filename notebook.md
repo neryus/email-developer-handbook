@@ -68,7 +68,7 @@ If the text size is big then `line-height` style property should be added, other
 
 ## Samsung Mail Blue Link
 
-To remove blue links in Samsung Mobile
+Samsung automatically links addresses and phone numbers, and applies a default link styling to them - underline and blue. To override this styles add Samsung specific style declaration to `<style>` block:
 
 ```
 #MessageViewBody a {
