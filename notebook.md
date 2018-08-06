@@ -80,3 +80,13 @@ Samsung automatically links addresses and phone numbers, and applies a default l
     line-height: inherit;
 }
 ```
+
+Some emails displaying smaller than the viewport and aligned to the left of the screen. This behavior was very inconsistent across tests. To fix this use add Samsung Mail specific style declaration to `<style>` block:
+```
+#MessageViewBody, #MessageWebViewDiv {
+    min-width:100vw;
+    margin:0 !important;
+    zoom:1 !important;
+}
+```
+Also, this declaration can be used to target specificaly Samsung Mail client. Thanks to [Mark Robbins and Litmus](https://litmus.com/blog/samsung-now-available-in-litmus-email-previews)
