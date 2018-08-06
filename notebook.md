@@ -60,7 +60,7 @@ Email client don't like when `b` tag have nested span element, e.g. `<b><span st
 
 ## [Orange.fr](https://id.orange.fr/auth_user/bin/auth_user.cgi?source_url=/auth_user/bin/auth_user.cgi&return_url=http://rms.orange.fr/mail/inbox%3f) web mail client
 
-The vertical alignment of `TD` content works only if CSS property - `vertical-align` used. The client ignore `valign` attribute.
+The style attribute `valign=middle` does not work on table cells, a workaround would be to use CSS style property `vertical-align: middle` on table cells. If markup consists of few nested tables every table cell should have CSS style property.
 
 ## [Mail.ru](https://e.mail.ru/login)
 
