@@ -64,3 +64,21 @@ title length: %%=v(@l)=%%
 title: Asahi UK: Insights Manager
 title length: 26
 ```
+
+## Substring ##
+
+This function returns a portion of the specified string starting at a certain character position and no longer than the specified length. If the specified character position is more than the length of the specified string, the function returns an empty string.
+
+### Arguments ###
+
+`Substring(1,2,3)`
+
+| Ordinal | Type | Required | Description |
+| ------: | ---- | :------- | :---------- |
+| 1 | String | True | The string from which to extract a portion |
+| 2 | Number | True | Starting position of substring |
+| 3 | Number | False | Length of substring |
+
+### Example ###
+
+#### Output ####
