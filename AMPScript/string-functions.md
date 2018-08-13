@@ -32,3 +32,35 @@ colon position: %%=v(@colon)=%%
 title: EMR: Visual Content Designer - Luxury Student Accommodation
 colon position: 4
 ```
+
+## Length ##
+
+This function returns the number of characters in the specified string.
+
+### Argument ###
+
+`Length(1)`
+
+| Ordinal | Type | Required | Description |
+| ------: | ---- | :------- | :---------- |
+| 1 | String | True | String to measure |
+
+### Example ###
+
+```
+%%[
+var @title, @l
+
+set @title = 'Asahi UK: Insights Manager'
+set @l = Length(@title)
+]%%
+title: %%=v(@title)=%%<br>
+title length: %%=v(@l)=%%
+```
+
+### Output ###
+
+```
+title: Asahi UK: Insights Manager
+title length: 26
+```
