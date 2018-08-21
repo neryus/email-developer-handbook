@@ -115,9 +115,12 @@ Has a free option with web interface, which is good if you using this tools from
 This service don't has web interface and only the Mac users can use it as application. It also has web API service. Can't say more, because didn't had a chance to try.
 
 ### [Compressor](https://compressor.io/)
+
+
+
 ### [Jpegmini](http://www.jpegmini.com/)
 
-
+Only for jpeg format. But has an extensive tool collection, from the web service to desktop (Mac & PC). The web service compresses one picture at the time.
 
 ## Image editors
 
