@@ -104,7 +104,13 @@ Very basic tool, do what it says. Just paste your CSS and HTML and you will get 
 
 ### [TinyPNG](https://tinypng.com/), TinyJPG
 
-At the moment it's the best tool to compress image size. Easy to use for up to 20 images.
+At the moment it's the best tool to compress image size. Easy to use web service for up to 20 images without signing up.
+What I like:
+- Compresses png and jpg formats.
+- Simple web interface.
+- The history of last compressed files.
+- Bulk upload of up to 20 images.
+- Better quality compression on some examples compares with Compressor.io tool.
 
 ### [Kraken.io](https://kraken.io/web-interface) Web
 
@@ -116,7 +122,9 @@ This service don't has web interface and only the Mac users can use it as applic
 
 ### [Compressor](https://compressor.io/)
 
+A free online tool to compress images without losing the original quality. Supports 4 formats - jpeg, png, gif and svg. Tried only png, cannot say anything about other formats.
 
+It offers two types of compression - lossless or lossy, but don't explain what's the difference between them.
 
 ### [Jpegmini](http://www.jpegmini.com/)
 
