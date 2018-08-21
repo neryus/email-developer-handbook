@@ -10,7 +10,7 @@
   * [Premailer](#premailer)
   * [Mailchimp](#mailchimp)
   * [Campaign Monitor](#campaign-monitor)
-* [Image optimaizers](#image-optimizers)
+* [Image compressors](#image-compressors)
   * [TinyPNG](#tinypng-tinyjpg)
   * [Kraken.io](#krakenio-web)
   * [ImageOptim](#imageoptim)
@@ -100,19 +100,24 @@ Very basic tool, do what it says. Just paste your CSS and HTML and you will get 
 
 ### [Campaign Monitor](https://inliner.cm/)
   
-## Image Optimizers
+## Image Compressors
 
 ### [TinyPNG](https://tinypng.com/), TinyJPG
 
-At the moment it's the best tool to optimize image size. Easy to use for small amount of images.
+At the moment it's the best tool to compress image size. Easy to use for up to 20 images.
 
 ### [Kraken.io](https://kraken.io/web-interface) Web
 
 Has a free option with web interface, which is good if you using this tools from time to time or just couple times a day. But I found that not every jpg or png image would be optimized.
 
 ### [ImageOptim](https://imageoptim.com/online)
+
+This service don't has web interface and only the Mac users can use it as application. It also has web API service. Can't say more, because didn't had a chance to try.
+
 ### [Compressor](https://compressor.io/)
 ### [Jpegmini](http://www.jpegmini.com/)
+
+
 
 ## Image editors
 
