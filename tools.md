@@ -126,6 +126,8 @@ A free online tool to compress images without losing the original quality. Suppo
 
 It offers two types of compression - lossless or lossy, but don't explain what's the difference between them.
 
+One awesome thing is adding 'compressor' to a file names.
+
 ### [Jpegmini](http://www.jpegmini.com/)
 
 Only for jpeg format. But has an extensive tool collection, from the web service to desktop (Mac & PC). The web service compresses one picture at the time.
