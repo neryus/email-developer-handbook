@@ -19,6 +19,8 @@
 * [Image editors](#image-editors)
   * [Figma](#figma)
   * [Photopea](#photopea)
+  * [BeFunky](#befunky)
+  * [LunaPic](#lunapic)
 * [GIF](#gif)
   * [LICEcap](#LICEcap)
 
@@ -139,6 +141,15 @@ After creating first email designs I found it quite interesting tool. Will updat
 
 ### [Photopea](https://www.photopea.com/)
 The free image editor is web-based and comes with a UI that is very similar to what you’re used from Photoshop. Photopea supports layers, layer masks and blend modes, and offers a lot of the tools that you love from Photoshop: the Magic Wand, Lasso, and Clone Tool, for example. It can handle PSD, Gimp, and WebP files, as well as common image formats, of course. A nice alternative for quick edits.
+
+## [BeFunky](https://www.befunky.com/)
+
+A web-based image editor to crop or resize an image very quickly. Only a few tools available for free. Supports jpg and png formats.
+
+## [LunaPic](http://www169.lunapic.com/editor/)
+
+Free web-based image editor. It has all the basic tools for image editing. Supports gif, jpg, png, psd formats. Have an option to create gif format files from video. Should be a great alternative to Photoshop.
+Didn't tested in the field.
 
 ## GIF
 ### Animated GIF maker [imgflip](https://imgflip.com/gifgenerator)
