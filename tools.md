@@ -10,6 +10,8 @@
   * [Premailer](#premailer)
   * [Mailchimp](#mailchimp)
   * [Campaign Monitor](#campaign-monitor)
+* [Browser Extensions](#browser-extensions)
+  * [Chrome](#chrome)
 * [Image compressors](#image-compressors)
   * [TinyPNG](#tinypng-tinyjpg)
   * [Kraken.io](#krakenio-web)
@@ -101,7 +103,15 @@ Some email clients strip out or just ignore &lt;head&gt; and &lt;style&gt; tags 
 Very basic tool, do what it says. Just paste your CSS and HTML and you will get inlined styles to your markup. It keeps classes in markup, not delete them.
 
 ### [Campaign Monitor](https://inliner.cm/)
-  
+
+## Browser Extensions
+
+### Chrome
+
+#### [Responsive Web Design Tester](https://chrome.google.com/webstore/detail/mobileresponsive-web-desi/elmekokodcohlommfikpmojheggnbelo)
+
+The name says everything. I like this extension because it allows to test the HTML document on various devices and agents and it works as separate browser window.
+
 ## Image Compressors
 
 ### [TinyPNG](https://tinypng.com/), TinyJPG
