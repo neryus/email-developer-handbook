@@ -2,6 +2,13 @@
 
 The library of system-based personalization strings which can be used in a message or on a page to output a value, based on the context of the Subscriber, Contact or a message.
 
+## Email URL Data Strings ##
+
+String | Description | Example Output
+------ | ----------- | --------------
+`unsub_center_url` | URL of the Subscriber's One-Click Unsubscribe page | `http://pub.s6.exacttarget.com/unsub_center.apsx?qs=...`
+`view_email_url` | `URL to view the email` | `http://view.s6.exacttarget.com?qs=...`
+
 ## Subscriber Data Strings ##
 
 String | Description | Example Output
