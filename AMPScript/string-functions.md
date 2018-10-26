@@ -81,4 +81,20 @@ This function returns a portion of the specified string starting at a certain ch
 
 ### Example ###
 
+```
+%%[
+VAR @title 
+SET @title = "Brand Recruitment: SEO Specialist" /* literal value */
+
+/* Returns the value of string in front of the colon */
+IF IndexOf(@title,':') > 0 THEN
+  SET @j = Substring(@title,1,Subtract(IndexOf(@title,':'),1))
+ENDIF
+]%%
+```
+
 #### Output ####
+
+```
+Brand Recruitment
+```
