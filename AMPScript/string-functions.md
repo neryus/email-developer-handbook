@@ -103,3 +103,34 @@ ENDIF
 ```
 Brand Recruitment
 ```
+
+## Subtract ##
+
+This function returns the difference between two numbers.
+
+### Arguments ###
+
+`Subtract(1,2)`
+
+| Ordinal | Type | Required | Description |
+| ------: | ---- | :------- | :---------- |
+| 1 | Number | True | First value |
+| 2 | Number | True | Second value |
+
+
+### Example 1 ###
+
+```
+%%[
+VAR @n1, @n2, @d
+SET @n1 = 19
+SET @n2 = 7
+
+SET @d = Subtract(@n1, @n2)
+]%%
+%%=v(@n1)=%% - %%=v(@n2)=%% = %%=v(@d)=%%
+```
+
+### Output ###
+
+19 - 7 = 12
