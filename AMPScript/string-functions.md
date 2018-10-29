@@ -1,6 +1,7 @@
 * [IndexOf](#indexof)
 * [Length](#length)
 * [Substring](#substring)
+* [Subtract](#subtract)
 
 ## IndexOf ##
 
@@ -133,4 +134,6 @@ SET @d = Subtract(@n1, @n2)
 
 ### Output ###
 
+```
 19 - 7 = 12
+```
