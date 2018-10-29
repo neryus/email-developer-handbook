@@ -1,3 +1,7 @@
+* [IndexOf](#indexof)
+* [Length](#length)
+* [Substring](#substring)
+
 ## IndexOf ##
 
 This function returns the position of the first occurrence of a specified value in a string. The index numbering starts at 1.
