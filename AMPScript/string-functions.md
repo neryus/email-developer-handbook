@@ -91,6 +91,7 @@ IF IndexOf(@title,':') > 0 THEN
   SET @j = Substring(@title,1,Subtract(IndexOf(@title,':'),1))
 ENDIF
 ]%%
+%%=v(@j)=%%
 ```
 
 #### Output ####
