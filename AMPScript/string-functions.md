@@ -86,12 +86,12 @@ This function returns a portion of the specified string starting at a certain ch
 
 ### Example ###
 
+Returns the value of string in front of the specified character.
 ```
 %%[
 VAR @title 
 SET @title = "Brand Recruitment: SEO Specialist" /* literal value */
 
-/* Returns the value of string in front of the colon */
 IF IndexOf(@title,':') > 0 THEN
   SET @j = Substring(@title,1,Subtract(IndexOf(@title,':'),1))
 ENDIF
@@ -136,4 +136,44 @@ SET @d = Subtract(@n1, @n2)
 
 ```
 19 - 7 = 12
+```
+
+### Example 2 ###
+
+The example counts characters in the string (including the space between words).
+
+```
+%%[
+VAR @jt, @title
+SET @title = "Brand Recruitment: Online Marketing Specialist"
+
+SET @jt = Subtract(IndexOf(@title,':'),1)
+]%%
+%%=v(@jt)=%%
+```
+
+### Output
+
+```
+17
+```
+
+### Example 3
+
+The example counts characters find after the specified character in the string (including the spaces).
+
+```
+%%[
+VAR @title, @q
+SET @title = "Brand Recruitment: PR and Social Media Manager"
+
+SET @q = Subtract(Length(@title), IndexOf(@title, ':'))
+]%%
+%%=v(@q)=%%
+```
+
+### Output
+
+```
+28
 ```
