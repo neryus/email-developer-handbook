@@ -60,35 +60,15 @@ The challenge is to divide `<title>` element content into company and job positi
       SET @w = Substring(@title,Add(IndexOf(@title,':'),1))
     ENDIF
  ]%%
- <table>
-    <tr>
-        <td align="left">Company:</td>
-        <td>&nbsp;</td>
-        <td align="left">%%=v(@j)=%%</td>
-    </tr>
-    <tr>
-        <td align="left">Job position:</td>
-        <td>&nbsp;</td>
-        <td align="left">%%=v(@w)=%%</td>
-    </tr>
-    <tr>
-        <td align="left">Description:</td>
-        <td>&nbsp;</td>
-        <td align="left">%%=v(@description)=%%</td>
-    </tr>
-    <tr>
-        <td align="left">URL:</td>
-        <td>&nbsp;</td>
-        <td align="left">%%=v(@link)=%%</td>
-    </tr>
-    <tr>
-        <td align="left">Date of publication:</td>
-        <td>&nbsp;</td>
-        <td align="left">%%=v(@pubDate)=%%</td>
-    </tr>
- </table>
+ Company: %%=v(@j)=%%<br>
+ Job position: %%=v(@w)=%%<br>
+ Description: %%=v(@description)=%%<br>
+ URL: %%=v(@link)=%%<br>
+ Date of publication: %%=v(@pubDate)=%%<br><br>
  %%[
   NEXT @i
   ENDIF
  ]%%
 ```
+
+#### Output
