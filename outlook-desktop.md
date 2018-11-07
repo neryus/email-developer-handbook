@@ -66,6 +66,8 @@ Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:f
 
 ### Conditional comments
 
+[The Microsoft documentation](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85))
+
 ```
 <!--[if mso]>
 Outlook desktop conditional comment syntax
