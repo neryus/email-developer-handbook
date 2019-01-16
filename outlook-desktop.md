@@ -1,15 +1,16 @@
-### The horizontal line same colour as `body` background in Outlook 2016
+### Outlook 2016/Mail renders horizontal lines in HTML emails 
 
-The horizontal line is the same colour as `body` background, if email container is dark colour and body background is not specified the lines will be white in Outlook 2016.
+Outlook 2016 / Windows 10 Mail renders strange horizontal lines in HTML emails after tables. No other email client does this.
+
+The lines are the color of the background. So, if a `background-color` or `bgcolor` is defined for html or body, the lines are that color. Otherwise they are white. They are not random, as sending the same HTML email several times yields the same result every time, but they are hard to predict.
+
+Changing font-size and line-height seem to change their places.
 
 ![The actual issue](http://i.imgur.com/Mf0qqHd.png)
 ![The fixed version](http://i.imgur.com/cOSDS7W.png)
 
-Some of 
-The fix for this particular design/code was very simple - remove all height values from parent `TD` element.
-Update. After spending some time on testing Creative Review Mastering Creativity template the issue was fixed by removing no-break space character for spacing and adjusting text size.
-
-The [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body) on this issue. But the [article from Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/) have more on details what can cause this bug to appear.
+- [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body)
+- [Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/)
 
 ### Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
