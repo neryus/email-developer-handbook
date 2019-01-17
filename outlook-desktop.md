@@ -12,7 +12,21 @@ Changing font-size and line-height seem to change their places.
 - [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body)
 - [Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/)
 
-By default, Outlook will treat `line-height` value as a minimum, and often increase it to its liking. To disbale this behavior, add `mso-line-height-rule: exactly;` and Outlook will start to treat `line-height` value as an exac value instead.
+By default, Outlook will treat `line-height` value as a minimum, and often increase it to its liking. To disable this behavior, add `mso-line-height-rule: exactly;` and Outlook will start to treat `line-height` value as an exact value instead. One drawback is that this property can make Outlook crop images by the line height and show the bottom of the image. The solution is to revert `mso-line-height-rule` back to default value `atleast` on any elements where it's causing an issue.
+
+```
+<style type="text/css">
+    .mso body {
+        mso-line-height-rule: exactly;
+    }
+    .mso td {
+        mso=line-height-rule: atleast;
+    }
+</style>
+
+<!--[if mso]><body class="mso"><![endif]-->
+<![if !mso]><body><![endif]>
+```
 
 ### Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
@@ -72,9 +86,8 @@ Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:f
 [The Microsoft documentation](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85))
 
 ```
-<!--[if mso]>
-Outlook desktop conditional comment syntax
-<![endif]-->
+<!--[if mso]>Visible only to Outlook<![endif]-->
+<![if !mso]>Hidden from Outlook<![endif]>
 ```
 
 For more selective targeting we can use '**gte**', '**lte**', '**gt**', '**lt**' and a number of Outlook version.
