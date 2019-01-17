@@ -12,6 +12,8 @@ Changing font-size and line-height seem to change their places.
 - [Litmus thread](https://litmus.com/community/discussions/4990-outlook-2016-1px-horizontal-lines-showing-up-in-the-body)
 - [Mosaico](https://mosaico.io/email-client-tricks/outlook-2016-weird-1px-horizontal-lines/)
 
+By default, Outlook will treat `line-height` value as a minimum, and often increase it to its liking. To disbale this behavior, add `mso-line-height-rule: exactly;` and Outlook will start to treat `line-height` value as an exac value instead.
+
 ### Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
 
