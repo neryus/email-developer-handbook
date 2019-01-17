@@ -20,7 +20,7 @@ By default, Outlook will treat `line-height` value as a minimum, and often incre
         mso-line-height-rule: exactly;
     }
     .mso td {
-        mso=line-height-rule: atleast;
+        mso=line-height-rule: at-least;
     }
 </style>
 
