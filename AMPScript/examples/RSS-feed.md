@@ -7,28 +7,26 @@
       <description> £65k - £79k pa + prorated: EMR: Six month FTC Head of Digital Trading and Development for well-known British retailer West Midlands </description>
       <link>https://jobs.example.com/job/409859/interim-head-of-ecommerce/?TrackID=8</link>
       <pubDate>Wed, 24 Oct 2018 18:29:00 +0000</pubDate>
-      <guid isPermaLink="true"> https://jobs.example.com/job/409859/interim-head-of-ecommerce/?TrackID=8 </guid>
     </item> 
     <item>
       <title>EMR: Digital Creative Director</title>
       <description> £100k - £120k pa: EMR: Our client is a 50-strong brand studio based in London who are on a mission to be the world's most progressive brand company and we're looking for a Creative Director to help them get there - by shaping brand for the future, through technology. London </description>
       <link>https://jobs.example.com/job/409918/digital-creative-director/?TrackID=8</link>
       <pubDate>Tue, 06 Nov 2018 12:04:00 +0000</pubDate>
-      <guid isPermaLink="true"> https://jobs.example.com/job/409918/digital-creative-director/?TrackID=8 </guid>
     </item>
     <item>
       <title> Brand Recruitment: Digital Marketing Executive - SEO focus </title>
       <description> £30k - £35k pa: Brand Recruitment: Digital Marketing Executive - SEO focus, Aylesbury - Are you a Digital Marketing Executive looking to develop their career and specialise in SEO?.. Aylesbury </description>
       <link>https://jobs.example.com/job/409916/digital-marketing-executive-seo-focus/?TrackID=8</link>
       <pubDate>Mon, 05 Nov 2018 17:10:00 +0000</pubDate>
-      <guid isPermaLink="true"> https://jobs.example.com/job/409916/digital-marketing-executive-seo-focus/?TrackID=8 </guid>
     </item>
   </channel>
 </rss>
 ```
 
-The AMPscript to retrieve content.
-The challenge is to divide `<title>` element content into company and job position. The title element content pattern company name and job position is divided by colon and space.
+### The AMPscript to retrieve content from XML
+The challenge is to separate the `title` value into two values. The title consists of a company name and job title, and they are separated with a colon character. 
+
 ```
 %%[
  VAR @xml, @t, @d, @u, @p, @rowCount, @i, @title, @description, @link, @pubDate, @jt, @j, @l, @q, @w
@@ -54,9 +52,6 @@ The challenge is to divide `<title>` element content into company and job positi
       SET @j = Substring(@title,1,Subtract(IndexOf(@title,':'),1))
     ENDIF
     IF IndexOf(@title,':') > 0 THEN
-      SET @q = Subtract(Length(@title),IndexOf(@title,':'))
-    ENDIF
-    IF IndexOf(@title,':') > 0 THEN
       SET @w = Substring(@title,Add(IndexOf(@title,':'),1))
     ENDIF
  ]%%
@@ -70,5 +65,32 @@ The challenge is to divide `<title>` element content into company and job positi
   ENDIF
  ]%%
 ```
+- First we start with counting characters in the title `Length(@title)`. 
+- Next step is to find a position of colon in the title `IndexOf(@title,':')`. 
+- Next, by using the Subtract function `Subtract(IndexOf(@title,':'),1)` get the number of characters in front of the colon character, which is company name.
+- Then, by using the Substring function `Substring(@title,1,Subtract(IndexOf(@title,':'),1))` return the value of the `title` between the first character and the colon.
+- Next, by using the Add function `Add(IndexOf(@title,':'),1)` get the number of characters in the `title` including the colon character.
+- Then, by using the Substring function `Substring(@title,Add(IndexOf(@title,':'),1))` return the value of the `title` after the colon and space characters pair.
 
-#### Output
+The rest is a basic value assigning to a variable.
+
+### Output
+```
+Company: EMR
+Job position: Interim Head of Ecommerce
+Description: £65k - £79k pa + prorated: EMR: Six month FTC Head of Digital Trading and Development for well-known British retailer West Midlands
+URL: https://jobs.example.com/job/409859/interim-head-of-ecommerce/?TrackID=8
+Date of publication: Wed, 24 Oct 2018 18:29:00 +0000
+
+Company: EMR
+Job position: Digital Creative Director
+Description: £100k - £120k pa: EMR: Our client is a 50-strong brand studio based in London who are on a mission to be the world's most progressive brand company and we're looking for a Creative Director to help them get there - by shaping brand for the future, through technology. London
+URL: https://jobs.example.com/job/409918/digital-creative-director/?TrackID=8
+Date of publication: Tue, 06 Nov 2018 12:04:00 +0000
+
+Company: Brand Recruitment
+Job position: Digital Marketing Executive - SEO focus
+Description: £30k - £35k pa: Brand Recruitment: Digital Marketing Executive - SEO focus, Aylesbury - Are you a Digital Marketing Executive looking to develop their career and specialise in SEO?.. Aylesbury
+URL: https://jobs.example.com/job/409916/digital-marketing-executive-seo-focus/?TrackID=8
+Date of publication: Mon, 05 Nov 2018 17:10:00 +0000
+```
