@@ -36,7 +36,7 @@ This function returns a date with the specified number interval added to the spe
 The system returns tomorrow's date, alogn with a time stamp.
 
 #### Example 2
-Find next Monday date and display it.
+The objective - output next Monday date.
 ```
 %%[
 VAR @today, @monday, @weekday
@@ -55,6 +55,26 @@ Next Monday date is %%=FormatDate(@monday,'MMMM DD YYYY')=%%
 #### Output
 ```
 Next Monday date is March 18 2019 
+```
+#### Example 3
+The objective - output Monday date if tomorrow is Saturday.
+```
+%%[
+VAR @tomorrowSystemTime, @formatSystemDate, @formattedDate
+SET @tomorrowSystemTime = DateAdd(Now(true),1,'d')
+SET @formatSystemDate = FormatDate(@tomorrowSystemTime, 'ddddd') /*convert integral to string so it can be used in the IF statement*/
+  IF @formatSystemDate == 'Saturday' THEN
+    SET @tomorrowSystemTime = DateAdd(Now(true),3,'d')
+  ENDIF
+SET @formattedDate = FormatDate(@tomorrowSystemTime, 'ddddd DD MMMM YYYY')
+]%%
+%%=v(@formatSystemDate)=%%<br>
+%%=FormatDate(@tomorrowSystemTime, 'ddddd DD MMMM YYYY')=%%
+```
+#### Output
+```
+Saturday
+Monday 18 March 2019
 ```
 
 ## Now
