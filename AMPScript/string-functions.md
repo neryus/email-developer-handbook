@@ -1,5 +1,6 @@
 * [IndexOf](#indexof)
 * [Length](#length)
+* [Replace](#replace)
 * [Substring](#substring)
 * [Subtract](#subtract)
 
@@ -32,6 +33,39 @@ colon position: %%=v(@colon)=%%
 ```
 title: EMR: Visual Content Designer - Luxury Student Accommodation
 colon position: 4
+```
+
+## Replace
+
+This function replaces the first string value with the second string value in the specified string.
+
+### Arguments
+
+`Replace(1,2,3)`
+
+| Ordinal | Type | Required | Description |
+| ------: | ---- | :------- | :---------- |
+| 1 | String | True | String to search |
+| 2 | String | True | String to find |
+| 3 | String | True | Replacement string |
+
+
+### Example
+
+```
+%%[
+var @title, @l
+
+set @title = '<s>@</s>markritson'
+set @titleReplaced = Replace(@title,'<s>@</s>','@')
+]%%
+title: %%=v(@titleReplaced)=%%<br>
+```
+
+#### Output
+
+```
+title: @markritson
 ```
 
 ## Length
