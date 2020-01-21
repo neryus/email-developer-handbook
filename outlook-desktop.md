@@ -15,7 +15,7 @@ Changing font-size and line-height seem to change their places.
 By default, Outlook will treat `line-height` value as a minimum, and often increase it to its liking. To disable this behavior, add `mso-line-height-rule: exactly;` and Outlook will start to treat `line-height` value as an exact value instead. One drawback is that this property can make Outlook crop images by the line height and show the bottom of the image. The solution is to revert `mso-line-height-rule` back to default value `at-least` on any elements where it's causing an issue.
 
 ```
-<style type=text/css">
+<style type="text/css">
     td {
     line-height:175% /*this approximately represent a value of 1.5em in Outlook*/
     }
