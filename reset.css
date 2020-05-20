@@ -1,22 +1,81 @@
-/*Windows Mobile Text Size Adjustment. Much like in OSX and iOS, small text is also resized on Windows Mobile. The same vendor-prefix-based CSS property is used here, just with the ms vendor prefix instead of the webkit one.*/
+/* What it does: Stops email clients resizing small text. */
 body{
-    -ms-text-size-adjust:100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-/*WebKit Text Size Adjustment. WebKit looks for any text that happens to be sized smaller than 13px and increases it to that number, which can sometimes cause design issues in places intended for small text. Setting -webkit-text-size-adjust to none will prevent iOS platforms from resizing the text, but this method also prevents OSX applications like Safari from bumping the text size up - something that can cause issues for people who need the text size to be large. Setting -webkit-text-size-adjust to 100% seems to be the best of both worlds.*/
-body{
-    -webkit-text-size-adjust:100%;
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin:0 !important;
 }
+
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, td {
+	mso-table-lspace:0pt !important;
+	mso-table-rspace:0pt !important;
+}
+
+/* What it does: Fixes webkit padding issue. Fix for Yahoo Mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse:collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img{
+	-ms-interpolation-mode: bicubic;
+	display:block;
+}
+
+/* What it does: A work-around for iOS meddling in triggered links. */
+*[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+
+/* What it does: A work-around for Gmail meddling in triggered links. */
+.x-gmail-data-detectors,
+.x-gmail-data-detectors *,
+.aBn {
+	border-bottom: 0 !important;
+	cursor: default !important;
+}
+
+/* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+.a6S {
+	display: none !important;
+	opacity: 0.01 !important;
+}
+
+/* If the above doesn't work, add .g-img class to any image in question. */
+img.g-img + div {
+	display: none !important;
+}
+
+/* What it does: Prevents underlining the button text in Windows 10 */
+.button-link {
+	text-decoration: none !important;
+}
+
+/* What it does:  */
+
 #outlook a{padding:0;}
 .ReadMsgBody{width:100%;}
 .ExternalClass{width:100%;}
 .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:normal;}
-body,table,td,p,a,li,blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
-table,td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
-img{-ms-interpolation-mode:bicubic; display:block;}
 body{margin:0; padding:0;}
 img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-table{border-collapse:collapse !important;}
 body{height:100% !important; margin:0; padding:0;}
 
 /*  */
@@ -32,15 +91,6 @@ a:visited {color:inherit;} /*visited link*/
 a:hover {color:inherit;} /*user hovers*/
 a:active {color:inherit;} /*active link*/
 
-/* iOS BLUE LINKS */
-a[x-apple-data-detectors] {
-    color: inherit !important;
-    text-decoration: none !important;
-    font-size: inherit !important;
-    font-family: inherit !important;
-    font-weight: inherit !important;
-    line-height: inherit !important;
-}
 
 /* Force Gmaill App to display desktop version of email */
 .GmailAppFix {display: none !important;}
@@ -65,10 +115,6 @@ a[x-apple-data-detectors] {
 
     .imageFix{
         display:block;
-    }
-
-    table, td{
-        border-collapse:collapse;
     }
 
     #bodyTable{
