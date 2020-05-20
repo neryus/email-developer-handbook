@@ -1,4 +1,4 @@
-# TBC
+# What does every CSS rule of reset file
 
 ```
 -ms-text-size-adjust: 100%;
