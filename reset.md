@@ -1,31 +1,57 @@
 # TBC
 
-`-ms-text-size-adjust: 100%;`
+```
+-ms-text-size-adjust: 100%;
+```
 
 *What it does?*
 
 Windows Mobile Text Size Adjustment. Much like in OSX and iOS, small text is also resized on Windows Mobile, this rule set stops from resizing small text.
 
 ----
-```-webkit-text-size-adjust: 100%;```
+```
+-webkit-text-size-adjust: 100%;
+```
 
 *What it does?*
 
 WebKit Text Size Adjustment. WebKit looks for any text that happens to be sized smaller than 13px and increases it to that number, which can sometimes cause design issues in places intended for small text. Setting -webkit-text-size-adjust to none will prevent iOS platforms from resizing the text, but this method also prevents OSX applications like Safari from bumping the text size up - something that can cause issues for people who need the text size to be large. Setting -webkit-text-size-adjust to 100% seems to be the best of both worlds.
 
 ----
-`-webkit-font-smoothing: antialiased;`
+```
+-webkit-font-smoothing: antialiased;
+```
 
 *What it does?*
 
 ----
-`-moz-osx-font-smoothing: grayscale;`
+```
+-moz-osx-font-smoothing: grayscale;
+```
 
 *What it does?*
 
 ----
-`-ms-interpolation-mode: bicubic;`
+```
+-ms-interpolation-mode: bicubic;
+```
 
 *What it does?*
 
 Uses a better rendering method when resizing images in IE.
+
+----
+```
+*[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+```
+
+*What it does?*
+
+A work-around for iOS meddling in triggered links.
