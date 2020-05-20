@@ -22,3 +22,10 @@ WebKit Text Size Adjustment. WebKit looks for any text that happens to be sized 
 `-moz-osx-font-smoothing: grayscale;`
 
 *What it does?*
+
+----
+`-ms-interpolation-mode: bicubic;`
+
+*What it does?*
+
+Uses a better rendering method when resizing images in IE.
