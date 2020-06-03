@@ -1,4 +1,4 @@
-/* What it does: Stops email clients resizing small text. */
+/* reset specific email client styles */
 body{
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -6,18 +6,19 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* What it does: Centers email on Android 4.4 */
+body {
+	margin: 0 !important;
+}
+
 div[style*="margin: 16px 0"] {
 	margin:0 !important;
 }
 
-/* What it does: Stops Outlook from adding extra spacing to tables. */
 table, td {
 	mso-table-lspace:0pt !important;
 	mso-table-rspace:0pt !important;
 }
 
-/* What it does: Fixes webkit padding issue. Fix for Yahoo Mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
 table {
 	border-spacing: 0 !important;
 	border-collapse:collapse !important;
@@ -28,13 +29,11 @@ table table table {
 	table-layout: auto;
 }
 
-/* What it does: Uses a better rendering method when resizing images in IE. */
 img{
 	-ms-interpolation-mode: bicubic;
 	display:block;
 }
 
-/* What it does: A work-around for iOS meddling in triggered links. */
 *[x-apple-data-detectors] {
 	color: inherit !important;
 	text-decoration: none !important;
@@ -44,7 +43,6 @@ img{
 	line-height: inherit !important;
 }
 
-/* What it does: A work-around for Gmail meddling in triggered links. */
 .x-gmail-data-detectors,
 .x-gmail-data-detectors *,
 .aBn {
@@ -52,16 +50,18 @@ img{
 	cursor: default !important;
 }
 
-/* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
 .a6S {
 	display: none !important;
 	opacity: 0.01 !important;
 }
 
-/* If the above doesn't work, add .g-img class to any image in question. */
 img.g-img + div {
 	display: none !important;
 }
+
+
+
+
 
 /* What it does: Prevents underlining the button text in Windows 10 */
 .button-link {
