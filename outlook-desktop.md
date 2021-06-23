@@ -89,7 +89,7 @@ Another bug in Outlook '07, '10, '13 - when there are style rule `table-layout:f
 
 ### Conditional comments
 
-[The Microsoft documentation](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85))
+[Microsoft documentation](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85))
 
 ```
 <!--[if mso]>Visible only to Outlook<![endif]-->
@@ -113,3 +113,10 @@ Outlook version numbers
 * Outlook 2016 - Version 16
 
 The [full list](http://www.slipstick.com/outlook/outlook-version-numbers/) of Outlook version numbers
+
+### Vector Markup Language (VML)
+
+The feature used to display background images and various shapes CTA button within Outlook.
+
+[VML Object Model Reference](https://docs.microsoft.com/en-us/windows/win32/vml/msdn-online-vector-markup-language-object-model-reference)
+
