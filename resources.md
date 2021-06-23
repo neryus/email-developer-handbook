@@ -12,6 +12,11 @@ Tools for coding HTML emails and guide to template language
 ### Everything about [Windows Phone and Outlook](https://blog.jmwhite.co.uk/email-development/)
 James White blog is the best resourse on the web of Windows Phone and Outlook.
 
+### [Bulletproof background images](https://backgrounds.cm/)
+
+### [Bulletproof email buttons](https://buttons.cm/)
+
+
 ## Email Verification
 
 ### [briteverify.com](http://www.briteverify.com/)
