@@ -33,6 +33,7 @@ By default, Outlook will treat `line-height` value as a minimum, and often incre
 <!--[if mso]><body class="mso"><![endif]-->
 <![if !mso]><body><![endif]>
 ```
+After some extensive use, I can confirm that this solution reduces random line appearances to a minimum.
 
 ### Gaps above the image in Outlook 2013/2016
 ![Gap above image](/screenshots/2016-05-17_155028.png?raw=true)
