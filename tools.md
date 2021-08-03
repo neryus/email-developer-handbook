@@ -164,6 +164,8 @@ Didn't tested in the field.
 ## GIF
 ### Animated GIF maker [imgflip](https://imgflip.com/gifgenerator)
 Make animated GIFs from video files, Youtube, or video websites.
+### Animated GIF editor and GIF maker [EZGIF](https://ezgif.com/)
+Ezgif.com is a simple online GIF maker and toolset for basic animated GIF editing. Here you can create, resize, crop, reverse, optimize, and apply some effects to GIFs.
 
 ### [LICEcap](https://www.cockos.com/licecap/)
 This desktop capture tool allows to output image as a gif. Available for Windows and OSX users. Good tool to capture videos or providing instructions.
