@@ -57,6 +57,50 @@ Notice how the `Output()` function prints the value of the variable contained in
 
 For email messages, remember that AMPscript processes the HTML body of the messages first (including any preheader), then the text body. The subject line goes last.
 
+### AMPscript Functions
+
+AMPscript uses functions-an extremely large number of functions. We divide functions into several different categories.
+
+|AMPscript|What it does|
+|---|----|
+|API|Create SOAP API interactions|
+|Contacts|Modify Maarketing Cloud contact information|
+|Content|Modify Marketing Cloud content, such as text and images in email messages|
+|Data Extension|Modify data in data extensions|
+|Encryption|Encrypt and decrypt Marketing Cloud data|
+|HTTP|Get, post, and modify HTTP information in Marketing Cloud|
+|Math|Perform basic math functions|
+|Microsoft Dynamic CRM|Interact with Microsoft Dynamic CRM data|
+|Salesforce|Interact with Sales Cloud data in Marketing Cloud|
+|Sites|Interact with CloudPages sites|
+|Social|Interact with Social Forward functionality in Email Studio|
+|String|Modify string information in Marketing Cloud|
+|Utilities|Return and evaluate types of Marketing Cloud data|
+
+### Personalization Strings
+
+AMPscript offers some easy strings to pull information into content, email addresses, and other areas where you need to dynamically assign values. These personalization strings return data from Email Studio lists. Use AMPscript functions to return content from data extensions in other Marketing Cloud functions.
+
+### Impression Tracking
+
+AMPscript lets you determine which sections of an email message perform better in sends. Surround a piece of content-pulled in using the `ContentArea()` or `ContentAreaByName()` functions-with the `BeginImpressionRegion()` and `EndImpressionRegion()` functions, and use impression tracking reports to see how your content measure up.
+
+### Example
+
+AMPscript is usually used to pull data from data extensions using calls like `Lookup()` and `LookupRow()`. These functions look for data in specified data extensions and return fields based on the values you include in the functions. This example looks up purchases made by a contact identified by a member ID and returns any rows containing purchase information.
+
+```
+%%[ VAR @row
+    SET @row = LookupRows("Purchases","MemberID",@memID)]%%
+```
+
+This example shows how to retrive a content area from Content Builder in an email message, using the key value.
+```
+%%=ContentBlockbyKey("myContentBlock")=%%
+```
+
+Once you retrieve that information, you can perform all manner of modifications and transformations to accomplish what you need.
+
 <!--
 ### Attribute and Data Extension values
 
