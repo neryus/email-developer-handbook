@@ -16,5 +16,13 @@ This function returns a set of unordered rows from a Data Extension.
 | 4b| string | false | Additional value that identifies the rows to retrieve |
 
 ### Example
+```
+%%[ var @domain, @rows, @rowCount, @i set @domain = Domain(emailaddr) /* get subscriber domain name from email address */ set @rows = LookupRows('AccountManagers','Domain',@domain) set @rowCount = rowcount(@rows) output (concat('Subscribers email address domain is ',@domain,'
+row count: ',@rowcount,'
+')) if @rowCount > 0 then for @i = 1 to 1 do var @row, @accountManagerName, @econLandingPageURL, @companyName, @accountManagerEmail set @row = row(@rows,@i) set @accountManagerName = field(@row,'AccountManagerName') set @econLandingPageURL = field(@row,'EconLandingPageURL') set @companyName = field(@row,'CompanyName') set @accountManagerEmail = field(@row,'AccountManagerEmail') output (concat('Account Manager Name: ',@accountManagerName,'
+Account Manager email address: ',@accountManagerEmail,'
+Subscriber works at: ',@companyName,'
+Hub page: ',@econLandingPageURL)) next @i else ]%% No rows found %%[endif]%%
+```
 
 ### Output
