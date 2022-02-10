@@ -1,5 +1,8 @@
 # Resources
 
+### [How to Target Email Clients](https://howtotarget.email/)
+Crowdsourced email development techniques for singling out email clients and platforms.
+
 ### Outlook365 (OWA)
 The best recourse of Outlook365 quirks and workarounds is [James White blog](https://blog.jmwhite.co.uk/2014/07/22/office-365-quirks-for-email-designers/).
 
