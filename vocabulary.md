@@ -1,3 +1,5 @@
+**Email client**: An email client is the application being used to render the email. Think: Outlook for Desktop, Gmail Web, or Apple Mail.
+
 **Sender name**: The sender name tells viewers who sent the email. This is most likely the name of your company or brand.
 
 **Subject line**: The subject line tells subscribers what your email is about. The most effective subject lines reflect the content in the email and encourage engagement.
