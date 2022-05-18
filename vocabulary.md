@@ -1,4 +1,4 @@
-**Email client**: An email client is the application being used to render the email. Think: Outlook for Desktop, Gmail Web, or Apple Mail.
+**Email client**: An email client is the application being used to render the email. Think: Outlook for Desktop, Gmail Web, or Apple Mail. but what's important to note is that a customer's email address does not determine the email application.
 
 **Sender name**: The sender name tells viewers who sent the email. This is most likely the name of your company or brand.
 
