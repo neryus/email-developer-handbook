@@ -24,6 +24,17 @@ AMPscript code is contained within a character sequence that opens and closes wi
 |`(@money)`|The @ symbol shows us what we are looking for. In this example, money.|
 |`v(@allthemoney)`|This refers to the value of a variable found in your data.|
 
+
+## Sentence
+
+The code examples all accomplish the same thing: A customer’s favorite color displays in lowercase in the sent email, even if the data is stored in all caps per the sample data in this chart.
+
+| Style type | Sample code | When to use | Where to use |
+|------------|-------------| ----------- | ------------ |
+| Inline AMPscript | `%%=LOWERCASE(FavoriteColor)=%%` | Simple output | Free Form blocks, code snippet blocks, HTML content blocks |
+| AMPscript block  | `%%[Output(LOWERCASE(FavoriteColor))]%%` | More complex code with miltiple steps or conditional logic | Code snippet blocks, HTML content blocks |
+| AMPscript tag    | `<script runat=server language=ampsript> Output(LOWERCASE(FavoriteColor))</script>` | More complex code with multiple steps or conditional logic. Use if you are more familiar with web script syntax (Javascript) | Code snippet blocks, HTML content blocks |
+
 ## Comments
 
 Comments can be included in AMPscript blocks. They are contained within an opening `/*` and closing `*/` syntax pair and provide the ability to include a readable explanation or annotation for users. Any comments are ignored by Marketing Cloud and will not be interpreted. They can be used on a single line or traverse multipled lines.
