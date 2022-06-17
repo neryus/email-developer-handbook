@@ -58,3 +58,15 @@ Comments can be included in AMPscript blocks. They are contained within an openi
 |Conditional operators| |
 |---|----|
 |`IF, ELSEIF, ELSE, ENDIF`|These terms are used to define data or narrow down results based on set criteria.|
+
+## Defining Variables
+
+How the code elements work together to define and set variables.
+|Code|What it does|
+|--|--|
+|`VAR @cats`|Defines the placeholders.|
+|`SET @cats = breed`|Define a value from a sendable data extension.|
+|`SET @cats = "tabby"`|Set a specific or literal value.|
+|`%%=v(@cats)=%%`|Inline AMPscript used in your email content to return the value.|
+
+Note if the data extension field name has a space in it, the field name needs to be contained in square brackets. Example `SET @fname = [First name]`
