@@ -1,43 +1,28 @@
-* [IndexOf](#indexof)
-* [Length](#length)
+* [Trim](#trim)
 * [Replace](#replace)
+* [Length](#length)
 * [Substring](#substring)
 * [Subtract](#subtract)
+* [IndexOf](#indexof)
 
-## IndexOf
 
-This function returns the position of the first occurrence of a specified value in a string. The index numbering starts at 1.
+# Trim
 
-### Arguments
+`Trim(1)`
 
-`IndexOf(1,2)`
-
-| Ordinal | Type | Required | Description |
-| ------: | ---- | -------- | :---------- |
-| 1 | String | True | String to search |
-| 2 | String | True | String value to find |
-
-### Example
+#### Example
 ```
-%%[
-var @title, @colon
-set @title = 'EMR: Visual Content Designer - Luxury Student Accommodation'
-
-set @colon = IndexOf(@title,':') 
-]%%
-title: %%=v(@title)=%%<br>
-colon position: %%=v(@colon)=%%
+%%=Trim(" Hello ")=%%
 ```
 
 #### Output
 ```
-title: EMR: Visual Content Designer - Luxury Student Accommodation
-colon position: 4
+Hello
 ```
 
-## Replace
+# Replace
 
-This function replaces the first string value with the second string value in the specified string.
+This function replaces the first string value with the second string value in the variable.
 
 ### Arguments
 
@@ -68,7 +53,7 @@ title: %%=v(@titleReplaced)=%%<br>
 title: @markritson
 ```
 
-## Length
+# Length
 
 This function returns the number of characters in the specified string.
 
@@ -100,7 +85,7 @@ title: Asahi UK: Insights Manager
 title length: 26
 ```
 
-## Substring
+# Substring
 
 This function returns a portion of the specified string starting at a certain character position and no longer than the specified length. If the specified character position is more than the length of the specified string, the function returns an empty string.
 
@@ -154,7 +139,7 @@ ENDIF
 SEO Account Manager
 ```
 
-## Subtract
+# Subtract
 
 This function returns the difference between two numbers.
 
@@ -225,4 +210,35 @@ SET @q = Subtract(Length(@title), IndexOf(@title, ':'))
 
 ```
 28
+```
+
+# IndexOf
+
+This function returns the position of the first occurrence of a specified value in a string. The index numbering starts at 1.
+
+### Arguments
+
+`IndexOf(1,2)`
+
+| Ordinal | Type | Required | Description |
+| ------: | ---- | -------- | :---------- |
+| 1 | String | True | String to search |
+| 2 | String | True | String value to find |
+
+### Example
+```
+%%[
+var @title, @colon
+set @title = 'EMR: Visual Content Designer - Luxury Student Accommodation'
+
+set @colon = IndexOf(@title,':') 
+]%%
+title: %%=v(@title)=%%<br>
+colon position: %%=v(@colon)=%%
+```
+
+#### Output
+```
+title: EMR: Visual Content Designer - Luxury Student Accommodation
+colon position: 4
 ```
