@@ -12,7 +12,7 @@ Returns specified value from a data extension. You can specify multiple addition
 
 | Ordinal | Type | Required | Description |
 | ------- | ---- | -------- | ----------- |
-| 1 | string | true | Name of the data extension from which to return the value |
+| 1 | string | true | Name of data extension from which to return the specified value |
 | 2 | string | true | Name of the column from which to return a value |
 | 3 | string | true | Name of column used to identify row containing lookup value |
 | 4 | string | true | Value to match string against |
@@ -21,3 +21,7 @@ Returns specified value from a data extension. You can specify multiple addition
 
 ### Example 1
 
+`%%=Lookup('Products', name, 'price', 54.95)=%%`
+
+### Output
+`Ironaman 50-Lap Watch` which is the prosuct name associated with the price of $54.95.
