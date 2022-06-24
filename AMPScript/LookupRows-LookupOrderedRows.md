@@ -33,3 +33,26 @@ Hub page: ',@econLandingPageURL)) next @i else ]%% No rows found %%[endif]%%
 ```
 
 ### Output
+
+# LookupOrderedRows
+
+### Overview
+Returns a specified number of rows. You can specify multiple additional field and value pairs as part of an AND clause. The function returns an empty set when no values match.
+
+### Syntax
+`LookuoOrderedRows(1, 2, 3, 4, 5)`
+
+### Function properties
+| Ordinal | Type | Required | Description |
+| ------- | ---- | -------- | ----------- |
+| 1 | string | true | Name of data extension from which to return specific rows |
+| 2 | numeric | true | Number of rows to return |
+| 3 | string | true | Defines the order of return as field ASC (ascending) or DESC (descending) |
+| 4a| string | true | Field to use to build WHERE clause |
+| 4b| string | true | Value to use to build WHERE clause |
+
+### Example 1
+`%%=LookupOrderedRows('Products', 2, ASC, type, watch)=%%`
+
+### Output 
+Returns two rows from the Products data extension where the type is a watch.
