@@ -124,7 +124,9 @@ The feature used to display background images and various shapes CTA button with
 ### Troubleshooting background images
 
 [Fill element Type attribute values](https://learn.microsoft.com/en-us/windows/win32/vml/type-attribute--fill--vml)
+
 `<v:fill type="expression">`
+
 Values include:
 |Type|Description|
 |----|-----------|
