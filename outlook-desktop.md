@@ -121,3 +121,18 @@ The feature used to display background images and various shapes CTA button with
 
 [VML Object Model Reference](https://docs.microsoft.com/en-us/windows/win32/vml/msdn-online-vector-markup-language-object-model-reference)
 
+### Troubleshooting background images
+
+[Fill element Type attribute values](https://learn.microsoft.com/en-us/windows/win32/vml/type-attribute--fill--vml)
+`<v:fill type="expression">`
+Values include:
+|Type|Description|
+|----|-----------|
+| solid | The fill pattern is solid. Default. |
+| gradient | The fill colors blend together in a linear gradient from bottom to top. |
+| gradientradial | The fill colors blend together in a radial gradient. |
+| tile | The fill image is tiled. |
+| pattern | The image is used to create a pattern using the fill colors. |
+| frame | The image is stretched to fill the shape. |
+
+[Some examples](https://www.hteumeuleu.com/2021/background-properties-in-vml/)
