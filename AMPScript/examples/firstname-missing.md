@@ -24,7 +24,7 @@ Hello friend
 
 ## Example #2
 
-Adding custom string if data extension field firstname have less than 2 characters or have underscore as first letter.
+Adding custom string if data extension field firstname is shorter than 2 characters or have underscore as first letter.
 
 ```
 %%[
