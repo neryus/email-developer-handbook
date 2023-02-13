@@ -1,3 +1,9 @@
+### HTML elements and style properties that not rendered by Outlook
+
+| Element | Style property | Renders? |
+|-|-|-|
+| DIV | Padding | Not rendered |
+
 ### Outlook 2016/Mail renders horizontal lines in HTML emails 
 
 Outlook 2016 / Windows 10 Mail renders strange horizontal lines in HTML emails after tables. No other email client does this.
