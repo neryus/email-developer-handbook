@@ -1,8 +1,13 @@
 ### HTML elements and style properties that not rendered by Outlook
 
+Based on personal experience.
+
 | Element | Style property | Renders? |
 |-|-|-|
 | DIV | Padding | Not rendered |
+| P | Padding | Not working |
+| P | Margin | Works |
+| H2 | Padding | Not working |
 
 ### Outlook 2016/Mail renders horizontal lines in HTML emails 
 
