@@ -20,6 +20,18 @@
 Hello
 ```
 
+#### Example 2
+
+The below example will trim the space after the name and replace the first letter with a capital S.
+```
+Hello %%=Propercase(Trim("steven "))=%%,
+```
+
+#### Output
+```
+Hello Steven,
+```
+
 # Replace
 
 This function replaces the first string value with the second string value in the variable.
