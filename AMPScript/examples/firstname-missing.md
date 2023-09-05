@@ -28,7 +28,7 @@ If the data extension missing firstname column value then the output is the stri
 %%[
 set @firstname = [Firstname]    
 if empty(@firstname) then 
- set @firstname = "Hi"
+ set @firstname = "Hi,"
 else 
  set @firstname = Concat("Hi ", Propercase(@firstname), ",")
 endif
@@ -40,7 +40,7 @@ endif
 ### Output
 
 ```
-Hello
+Hi,
 ```
 
 ## Example #3
