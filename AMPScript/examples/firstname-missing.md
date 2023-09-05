@@ -21,8 +21,29 @@ Hello %%=v(@displayName)=%%
 ```
 Hello friend
 ```
-
 ## Example #2
+
+If the data extension missing firstname column value then the output is the string "Hi,". If it has then change the case and output string "Hi Paul,". Used to remove space character between "hi" and comma when firstname is missing within send list.
+```
+%%[
+set @firstname = [Firstname]    
+if empty(@firstname) then 
+ set @firstname = "Hi"
+else 
+ set @firstname = Concat("Hi ", Propercase(@firstname), ",")
+endif
+]%%
+
+%%=v(@firstname)=%%
+```
+
+### Output
+
+```
+Hello
+```
+
+## Example #3
 
 Adding custom string if data extension field firstname is shorter than 2 characters or have underscore as first letter.
 
