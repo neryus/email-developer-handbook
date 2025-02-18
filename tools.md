@@ -42,8 +42,8 @@ Tools:
 - Preview in browser
 - Code hints
 - Code snippets.
-  Importing custom snippets to Dreamweaver is a bit [complicated stuff](https://forums.adobe.com/thread/1005503). First, you need to create a custom snippet, you will be able to locate a snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
-  To export custom snippets from Dreamweaver head to (C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver 2021\en_GB\Configuration\Snippets) and copy snippets from there.
+  - Importing custom snippets to Dreamweaver is a bit [complicated stuff](https://forums.adobe.com/thread/1005503). First, you need to create a custom snippet, you will be able to locate a snippets folder where you can paste in the custom snippets.(C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets)
+  - To export custom snippets from Dreamweaver head to (C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver 2021\en_GB\Configuration\Snippets) and copy snippets from there.
 - Default keyboard shortcut for break line element
 - `Ctrl+D` keys to duplicate selected content or the last line where the cursor is.
 - Multiple cursor
