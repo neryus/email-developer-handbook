@@ -27,24 +27,26 @@
   * [LICEcap](#LICEcap)
 
 ## Code editors
-Code editors for development of HTML emails:
+Code editors for the development of HTML emails:
 
 ### Adobe Dreamweaver
-My work machine get update, actually only Adobe CS was updated to CS6.
-At work I'm using Dreamweaver version CS5.5 and I find it very good for editing, troubleshooting an email templates. Mostly because of design view and select tool.
+At work, I'm using Dreamweaver and find it very good for editing, and troubleshooting email templates. Mostly because of the design view and select tool.
 
 Tools:
 - Find and Replace (current document, open documents, folder)
-- Select tool in design view
+- Select the tool in the design view
 - Collapse full tag
-- Quick tag editor (to quickly wrap text in tags select it, press Ctrl+T to open the tag editor, start typing to move quickly to the tags you want to wrap the text in, using the up down arrow keys if need).
+- Quick tag editor (to quickly wrap text in tags select it, press Ctrl+T to open the tag editor, and start typing to move quickly to the tags you want to wrap the text in, using the up-down arrow keys if needed).
 - Apply/Remove comment
 - W3C Validation
 - Preview in browser
 - Code hints
 - Code snippets.
-  To import custom snippets to the Dreamweaver is a bit [complicated stuff](https://forums.adobe.com/thread/1005503). First you need to create custom snippet, after you will be able to locate snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\David\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
+  Importing custom snippets to Dreamweaver is a bit [complicated stuff](https://forums.adobe.com/thread/1005503). First, you need to create a custom snippet, you will be able to locate a snippets folder where you can paste in the custom snippets. The CS6 folder is here: C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver CS6\en_US\Configuration\Snippets"
+  To export custom snippets from Dreamweaver head to (C:\Users\user_name\AppData\Roaming\Adobe\Dreamweaver 2021\en_GB\Configuration\Snippets) and copy snippets from there.
 - Default keyboard shortcut for break line element
+- `Ctrl+D` keys to duplicate selected content or the last line where the cursor is.
+- Multiple cursor
 
 Plugins:
 - [Emmet](https://github.com/emmetio/dreamweaver), after some headache to install and set up it on Dreamweaver this tool saves a lot of repeating typing.
