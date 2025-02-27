@@ -6,4 +6,7 @@ FROM _bounce
 WHERE Domain like '%domainname.com'
 ```
 SQL reference
-[https://help.salesforce.com/s/articleView?id=mktg.mc_as_query_bounce_history.htm&type=5](https://help.salesforce.com/s/articleView?id=mktg.mc_as_sql_reference.htm&type=5)
+https://help.salesforce.com/s/articleView?id=mktg.mc_as_sql_reference.htm&type=5
+
+Data View: Bounce
+https://help.salesforce.com/s/articleView?id=mktg.mc_as_data_view_bounce.htm&type=5
