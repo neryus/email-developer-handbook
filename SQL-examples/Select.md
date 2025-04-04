@@ -1,10 +1,20 @@
 ### Select
 
 The `Select` statement will return every email address used in a specified job.
+```
+SELECT SubscriberKey
+FROM _Sent
+WHERE JobID = '123456789'
+```
 
-```select _subscriberkey from _sent where jobID ='0123456789'```
+The `Select` statement will return every subscriber with a specific domain from a specific sent job.
+```
+SELECT SubscriberKey as Email
+FROM _Sent
+WHERE JobID = '123456789' AND SubscriberKey LIKE '%@centaurmedia.com'
+```
 
-Select a subscriber with a specific domain name.
+The `Select` statement will return every subscriber with a specific domain name from `All Subscribers`.
 ```
 SELECT SubscriberID, EmailAddress, Status
 FROM _subscribers
