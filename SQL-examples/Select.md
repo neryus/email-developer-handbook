@@ -21,7 +21,7 @@ FROM _subscribers
 WHERE Domain like '%centaurmedia.com'
 ```
 
-The 'Select' statement will return every email address on both data extensions and add columns from the 'Universe' data extension.
+The 'Select' statement will compare two data extensions and return matching email addresses with additional data columns from the 'Universe' data extension.
 ```
 SELECT A.EMAIL, B.Country, B.Job_Title, B.Design_Job_Role, B.Experience_Level
 FROM [Third_Party] A
