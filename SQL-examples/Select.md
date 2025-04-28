@@ -20,3 +20,11 @@ SELECT SubscriberID, EmailAddress, Status
 FROM _subscribers
 WHERE Domain like '%centaurmedia.com'
 ```
+
+The 'Select' statement will return every email address on both data extensions and add columns from the 'Universe' data extension.
+```
+SELECT A.EMAIL, B.Country, B.Job_Title, B.Design_Job_Role, B.Experience_Level
+FROM [Third_Party] A
+LEFT JOIN [UNIVERSE] B
+ON A.Email = B.Email
+```
