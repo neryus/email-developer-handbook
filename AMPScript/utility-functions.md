@@ -36,5 +36,12 @@ This function provides a conditional evaluation of an expression. If the express
 | 1 | String | True | An attribute, variable or nested function to evaluate |
 
 ## Example
+```
+SET @BrandsRepresenting = Field(@Row, "RepresentingBrands")
+IF EMPTY(@BrandsRepresenting) THEN SET @BrandsRepresenting = "<em>(please provide)</em>" ENDIF
+```
 
 ### Output
+```
+Brands that you handle for the agency: (please provide)
+```
