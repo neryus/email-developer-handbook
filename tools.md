@@ -1,4 +1,5 @@
 * [Code editors](#code-editors)
+  * [Phoenix Code](#phoenix-code)
   * [Adobe Dreamweaver](#adobe-dreamweaver)
   * [Atom](#atom)
   * [Brackets](#brackets)
@@ -29,8 +30,12 @@
 ## Code editors
 Code editors for the development of HTML emails:
 
+### Phoenix Code
+
+2025 June, I started to use the Phoenix Code editor as Dreamweaver  failed to launch properly on a first attempt.
+
 ### Adobe Dreamweaver
-At work, I'm using Dreamweaver and find it very good for editing, and troubleshooting email templates. Mostly because of the design view and select tool.
+At work, I'm using Dreamweaver and find it very good for editing and troubleshooting email templates. Mostly because of the design view and select tool.
 
 Tools:
 - Find and Replace (current document, open documents, folder)
