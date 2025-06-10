@@ -47,7 +47,20 @@ SELECT DISTINCT
   EventDate
 FROM _Sent
 ```
-In the above case, you will get a separate row for each Subscriber Key - email Send Date pair. You might receive multiple rows with the same Subscriber Key, but each with a different Send Date.
+In the above case, you will get a separate row for each Subscriber Key - email Send Date pair. You might receive multiple rows with the same Subscriber Key, each with a different Send Date.
 
-Reference
-[Mateusz Dabrowaki](https://mateuszdabrowski.pl/docs/sql/sfmc-sql-select/)
+Reference [Mateusz Dabrowaki](https://mateuszdabrowski.pl/docs/sql/sfmc-sql-select/)
+
+#### More practical examples
+*Select unique subscribers that were used to send emails in the last 30 days*
+```
+SELECT DISTINCT SubscriberKey
+FROM _Sent
+WHERE EventDate >= DATEADD(day, -30, GETDATE())
+```
+*Select unique subscribers who were used to sending emails between the last 150 and 180 days, approximately 6 months ago.*
+```
+SELECT DISTINCT SubscriberKey
+FROM _Sent
+WHERE EventDate BETWEEN DATEADD(day, -180, GETDATE()) AND DATEADD(day, -150, GETDATE())
+```
