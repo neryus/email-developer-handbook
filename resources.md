@@ -1,5 +1,8 @@
 # Resources
 
+### How to design for responsive email?
+A great resource that everyone in the industry needs to read, from a beginner marketer to a solid web designer. The speech explains the basics of various email types, how they are consumed and how to design for them. [Hard-Won Lessons In Responsive Email Design - SmashingConf Oxford 2014, by Fabio Carneiro](https://www.slideshare.net/slideshow/emaildesign-current/33005536)
+
 ### [How to Target Email Clients](https://howtotarget.email/)
 Crowdsourced email development techniques for singling out email clients and platforms.
 
