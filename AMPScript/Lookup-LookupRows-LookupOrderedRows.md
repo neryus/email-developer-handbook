@@ -1,4 +1,21 @@
-# LookupRows
+## Lookup
+
+### Overview
+Returns a specified value from a data extension.
+
+### Syntax
+`Lookup(1)`
+
+### Function properties
+| Ordinal | Type | Required | Description |
+| ------- | ---- | -------- | ----------- |
+|  |  |  |  |
+
+### Example
+
+### Output
+
+## LookupRows
 
 ### Overview
 <!-- This function returns a set of unordered rows from a data extension. -->
@@ -34,7 +51,7 @@ Hub page: ',@econLandingPageURL)) next @i else ]%% No rows found %%[endif]%%
 
 ### Output
 
-# LookupOrderedRows
+## LookupOrderedRows
 
 ### Overview
 Returns a specified number of rows. You can specify multiple additional field and value pairs as part of an AND clause. The function returns an empty set when no values match.
